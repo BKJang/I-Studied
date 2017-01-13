@@ -17,5 +17,5 @@
 
 1. .py 기준으로 upload한다.
 2. upload시, summary로 각각의 프로젝트를 구분한다.
-3. 수정 후 upload시, summary에 (파일설명_수정_횟수)로 언급한다.
+3. 수정 후 upload시, summary에 (수정)을 언급한다.
 4. description에 대략적인 설명을 작성한다.
