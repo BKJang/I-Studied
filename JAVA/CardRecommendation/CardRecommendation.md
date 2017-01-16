@@ -19,6 +19,6 @@
 
 Card 클래스를 만들어 놓은 뒤 CreditCard, CheckCard가 상속, 모든 method는 Card class 안에..
 
-- CardTest class
+- CardTest class(main)
 
 버스비와 카페이용료를 입력 받은 뒤 체크카드와 신용카드 중 혜택 비교 후 더 좋은 혜택의 카드 추천
