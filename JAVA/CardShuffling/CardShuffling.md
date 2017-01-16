@@ -20,7 +20,7 @@ Spade, Diamond, Clover, Heart A~K 형태로 카드를 정의 해주는 생성자 정의 => Card(
 
 'Spade A'의 형태로 출력하여 값을 반환하는 method 정의 => showCard()
 
-- Deck class
+- Deck class(main)
 
 뽑은 카드를 보여주는 생성자 정의 => Deck()
 
