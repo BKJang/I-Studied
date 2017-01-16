@@ -13,7 +13,7 @@
 
 Menu(1.수입 2.지출 3.출력)를 제공해주고, 항목 선택 후 입력을 하면 마지막에 출력해주는 방식의 method를 정의한다.
 
-- IncomeExpenseTest
+- IncomeExpenseTest(main)
 
 IncomeExpense의 객체를 생성한 후, ie.menu()를 통해 출력
 
