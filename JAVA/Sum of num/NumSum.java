@@ -14,6 +14,11 @@ public class NumSum {
 			throw nexcpt;
 		}
 		
+		if(n<0 || n>10000){//조건에 대해 Exception 처리
+			NumInputException excpt = new NumInputException();
+			throw excpt;
+		}
+		
 		for(int i=m;i<=n;i++){//Exception 처리에 문제가 없다면 연산 처리
 			result +=i; 
 		}
