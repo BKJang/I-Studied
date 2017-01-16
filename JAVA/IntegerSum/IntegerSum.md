@@ -26,6 +26,6 @@
 
 result() method 정의를 통해 result값 반환
 
-- IntegerCalcTest class
+- IntegerCalcTest class(main)
 
 IntegerCalc class에서 반환된 result값을 출력함과 동시에 각각의 Exception class에서 Exception 처리
