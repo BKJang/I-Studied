@@ -18,6 +18,6 @@ naturalnum class에서 정의되는 method들에 대한 Interface 정의한다.
 
 문제에서 요구하는 값들을 출력하는 각각의 method를 정의한다.
 
-- IntegerTest class
+- IntegerTest class(main)
 
 naturalnum classd의 객체를 생성하고, 결과 값 출력
