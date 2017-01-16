@@ -1,4 +1,3 @@
-package Study1718;
 import java.util.Scanner;
 
 public class NumSum {
@@ -20,10 +19,6 @@ public class NumSum {
 		}
 		
 		return result;//연산된 결과 반환
-	
-	}
-	
-	
-
+	}	
 }
 	

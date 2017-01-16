@@ -1,5 +1,3 @@
-package Study1718;
-
 public class NumSumTest {
 	
 	public static void main(String[] args) {
@@ -17,9 +15,6 @@ public class NumSumTest {
 		}
 		
 		System.out.println();
-		}
-	
-	
-		
+		}	
 } 
 	
