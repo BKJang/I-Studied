@@ -1,4 +1,3 @@
-package Study1718;
 import java.util.Scanner;
 
 public class naturalnum implements naturalInterface {
@@ -50,8 +49,4 @@ public class naturalnum implements naturalInterface {
 		double b2 = (double)b;
 		System.out.println(a2/b2);
 	}
-
-	
-	
-	
 }

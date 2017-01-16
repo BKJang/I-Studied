@@ -1,5 +1,3 @@
-package Study1718;
-
 public class IntegerTest {
 	public static void main(String[] args) {
 		

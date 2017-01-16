@@ -1,5 +1,3 @@
-package Study1718;
-
 interface naturalInterface {
 	public void numout();
 	public void addNum();
