@@ -1,21 +1,25 @@
 # BubbleSort
 
-## 문제 설명
+## Explanation of Question.
 
-거품 정렬을 Java를 이용해 구현하시오.
+Implement BubbleSort as Java Language.
 
-## class 설명
+## class Explanation
 
 - BubbleSort class
 
-정수가 입력되었을 때, 배열에서 거품정렬하는 과정을 정의
+Define process of Sorting Array by BubbleSort algorithm.
 
 - BubbleSortEx class(main)
 
-배열의 크기를 입력 받고, 배열 크기만큼의 정수를 공백으로 구분해 입력받은 다음,
+Make Object of BubbleSort class.
 
-BubbleSort class의 객체를 생성하여, 거품정렬을 한 이후 결과 값을 출력
+Insert size of Array.
+
+Insert Integers that need to be sorted.(Each Integer separated as blank.)
+
+Print Array t hat is sorted by BubbleSort algorithm.
 
 - BubbleSort2 class
 
-temp라는 변수를 하나 더 쓰지 않고 '^=' 연산자를 활용하여 거품정렬 과정을 정의
+Another way of BubbleSort class.
