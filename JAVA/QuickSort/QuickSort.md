@@ -4,7 +4,7 @@
 
 Implement QuickSort as Java Language.
 
-¡ØQuickSort : 
+- QuickSort : 
 
 1. Set pivot of Array(I set pivot as center of Array).
 
