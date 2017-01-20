@@ -4,7 +4,7 @@
 
 Implement QuickSort as Java Language.
 
-(QuickSort : 
+¡ØQuickSort : 
 
 1. Set pivot of Array(I set pivot as center of Array).
 
@@ -18,7 +18,7 @@ Implement QuickSort as Java Language.
 
 Define process of Sorting Array by QuickSort algorithm.
 
-(set Quick method, quicksort method)
+(Set Quick method, quicksort method)
 
 - QuickSortEx class(main)
 
