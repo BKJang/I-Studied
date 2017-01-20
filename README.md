@@ -14,7 +14,7 @@
 #### - Flask version 0.10.1
 
 1. Files are uploaded as '.py'.
-2. Each project can be divided by summary
+2. Each project can be divided by summary.
 3. When I upload file which was modified, I will mention '(modified)' in summary.
 4. I will explain about modified part and explanation on description part. 
 
