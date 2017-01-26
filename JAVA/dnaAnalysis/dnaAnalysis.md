@@ -23,5 +23,5 @@ Define inputdata.
 
 1. Make object of DNA class.
 
-2. Make one array that changes 'inputdata' to charArray.
+2. Make one array that changes 'inputdata' to chararray.
 
