@@ -39,3 +39,4 @@ public class dnaAnalysis {
         System.out.println("CCAG : " + num2);
         System.out.println("AGCC : " + num3);
     }
+}
