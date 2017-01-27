@@ -1,5 +1,3 @@
-package Ch19;
-
 class Rectangle {
 	Point upperLeft, lowerRight;
 	
@@ -9,11 +7,11 @@ class Rectangle {
 	}
 	
 	public void showPosition(){
-		System.out.println("직사각형 위치정보");
-		System.out.println("좌 상단 : ");
+		System.out.println("location : ");
+		System.out.println("left upper : ");
 		upperLeft.showPosition();
 		System.out.println("");
-		System.out.println("우 하단 : ");
+		System.out.println("right upper : ");
 		lowerRight.showPosition();
 		System.out.println("\n");
 	}
