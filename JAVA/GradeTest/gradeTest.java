@@ -1,3 +1,5 @@
+package GradeTest;
+
 public class gradeTest {
 	public static void main(String[] args) {
 		grade gr = new grade();
@@ -7,7 +9,8 @@ public class gradeTest {
 			gr.output();
 			
 		}catch(IntegernumException e){
-			System.out.println(e.getMessage());
+			e.printStackTrace();
 		}
+		System.out.println("end");
 	}
 }
