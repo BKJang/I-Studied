@@ -1,3 +1,5 @@
+package SumofNum;
+
 public class NumSumTest {
 	
 	public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class NumSumTest {
 			System.out.println(result);//결과값 출력
 		}
 		catch(NumInputException e){//Exception에 걸린다면 만들어놓은 Exeption class로 이동
-			System.out.println(e.getMessage());
+			e.printStackTrace();
 		}
 		
 		System.out.println();
