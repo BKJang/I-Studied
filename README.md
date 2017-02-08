@@ -1,5 +1,6 @@
 # I-Studied
-- Directories are defiend as name of Language
+- Directories are defiend as name of Language.
+- Reference : I-Studied-Note(https://github.com/BKJang/I-Studied-Note) repository.
 
 ## JAVA
 #### - Java version 1.8.0
