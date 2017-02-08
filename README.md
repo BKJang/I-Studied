@@ -1,5 +1,5 @@
 # I-Studied
-- Directroies are defiend as name of Language
+- Directories are defiend as name of Language
 
 ## JAVA
 #### - Java version 1.8.0
