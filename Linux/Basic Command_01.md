@@ -32,7 +32,9 @@ cd /home/
 # [출력] /home
 
 ```
-## ls : Directory의 목록을 확인
+## ls 
+
+- ls : Directory의 목록을 확인
 
 [Option]
 
@@ -48,11 +50,17 @@ cd /home/
 
 6. -R : 하위 경로와 그 안에 있는 모든 File들도 같이 출력
 
-![Markdown Here logo](http://cfile1.uf.tistory.com/image/224776435787C7E11893FD)
-
 ```shell
 
-ls -al == ll
+# [문법]
+
+ls [옵션] [경로]
+
+# Example
+
+ls -a /home/directory/
+
+# ls -al == ll
 
 ```
 
@@ -62,4 +70,18 @@ ls -al == ll
 
 - mv : File이나 Directory를 이동할 때 사용, 파일의 이름 변경 가능
 
-![Markdown Here logo](http://cfile4.uf.tistory.com/image/237038465787CBCC1DEA22)
+```shell
+
+# [문법]
+
+cp [기존 경로] [복사할 경로]
+
+mv [기존 경로] [이동할 경로]
+
+# Example
+
+cp /home/a/poketmongo /home/a/b/
+
+mv /home/a/test /home/a/b/
+
+```
