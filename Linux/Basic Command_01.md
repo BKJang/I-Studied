@@ -12,15 +12,6 @@
 
 - cd : 이동하고자하는 directory로 이동
 
-
-## Virtaul Booting
-
-- Virtual Booting : 운영체제(Windows)위에 가상 머신을 돌려 그 위에서 Linux를 운영
-
-Virtual Machine을 작동시킬 때만 용량을 할당
-
-Linux를 이용할 때가 아니면 평소와 같이 Windows환경 이용 가능
-
 ```shell
 
 pwd
