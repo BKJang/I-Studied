@@ -1,12 +1,12 @@
 # Linux?
 
-- ±ÇÇÑ(¼ÒÀ¯±Ç, Çã°¡±Ç)
+- ê¶Œí•œ(ì†Œìœ ê¶Œ, í—ˆê°€ê¶Œ)
 
-- ´ÙÁß»ç¿ëÀÚ È¯°æÀ» Áö¿ø(multi user mode and multitasking)
+- ë‹¤ì¤‘ì‚¬ìš©ì í™˜ê²½ì„ ì§€ì›(multi user mode and multitasking)
 
-- ´ë,¼Ò¹®ÀÚ ±¸ºĞ
+- ëŒ€,ì†Œë¬¸ì êµ¬ë¶„
 
-- È®ÀåÀÚ´Â ¹«°üÇÏ°í ÆÄÀÏ¸íÀÇ ÀÏºÎ·Î »ç¿ë
+- í™•ì¥ìëŠ” ë¬´ê´€í•˜ê³  íŒŒì¼ëª…ì˜ ì¼ë¶€ë¡œ ì‚¬ìš©
 
 # Setting Environment
 
@@ -14,23 +14,23 @@
 
 ## Multi Booting
 
-- Multi Booting : ÇÏ³ªÀÇ ÄÄÇ»ÅÍ·Î Linux¿Í Windows¸¦ °°ÀÌ ¿î¿µ
+- Multi Booting : í•˜ë‚˜ì˜ ì»´í“¨í„°ë¡œ Linuxì™€ Windowsë¥¼ ê°™ì´ ìš´ì˜
 
-ÄÄÇ»ÅÍ ÇÏµå ¿ë·®ÀÇ ÀÏºÎ¸¦ Linux°¡ Àâ¾Æ¸Ô°Ô µÇ±â ¶§¹®¿¡ Windows¸¦ ¿î¿µÇÏ´Â È¯°æÀÌ ºÒ¾ÈÁ¤
+ì»´í“¨í„° í•˜ë“œ ìš©ëŸ‰ì˜ ì¼ë¶€ë¥¼ Linuxê°€ ì¡ì•„ë¨¹ê²Œ ë˜ê¸° ë•Œë¬¸ì— Windowsë¥¼ ìš´ì˜í•˜ëŠ” í™˜ê²½ì´ ë¶ˆì•ˆì •
 
 
 ## Virtaul Booting
 
-- Virtual Booting : ¿î¿µÃ¼Á¦(Windows)À§¿¡ °¡»ó ¸Ó½ÅÀ» µ¹·Á ±× À§¿¡¼­ Linux¸¦ ¿î¿µ
+- Virtual Booting : ìš´ì˜ì²´ì œ(Windows)ìœ„ì— ê°€ìƒ ë¨¸ì‹ ì„ ëŒë ¤ ê·¸ ìœ„ì—ì„œ Linuxë¥¼ ìš´ì˜
 
-Virtual MachineÀ» ÀÛµ¿½ÃÅ³ ¶§¸¸ ¿ë·®À» ÇÒ´ç
+Virtual Machineì„ ì‘ë™ì‹œí‚¬ ë•Œë§Œ ìš©ëŸ‰ì„ í• ë‹¹
 
-Linux¸¦ ÀÌ¿ëÇÒ ¶§°¡ ¾Æ´Ï¸é Æò¼Ò¿Í °°ÀÌ WindowsÈ¯°æ ÀÌ¿ë °¡´É
+Linuxë¥¼ ì´ìš©í•  ë•Œê°€ ì•„ë‹ˆë©´ í‰ì†Œì™€ ê°™ì´ Windowsí™˜ê²½ ì´ìš© ê°€ëŠ¥
 
 
 ## CentOS vs Ubuntu 
 
-- CentOS(RedHat) : EnterpriseÂÊÀ¸·Î Server¿¡¼­ °¡Àå ¸¹ÀÌ ¾²ÀÌ´Â OS
+- CentOS(RedHat) : Enterpriseìª½ìœ¼ë¡œ Serverì—ì„œ ê°€ì¥ ë§ì´ ì“°ì´ëŠ” OS
 
 1 : Desktop	
 
@@ -48,10 +48,10 @@ Linux¸¦ ÀÌ¿ëÇÒ ¶§°¡ ¾Æ´Ï¸é Æò¼Ò¿Í °°ÀÌ WindowsÈ¯°æ ÀÌ¿ë °¡´É
 						
 8 : Software Development Workstation
 
-[Reference](http://bikeinside.tistory.com/47)
+[Reference] : http://bikeinside.tistory.com/47
 
 - Ubuntu(Debian)
 
-1 : Desktop : ¼³Ä¡½Ã Linux¿ë Office ¹× ±âÅ¸ ÇÊ¼ö UtilityµéÀÌ ±âº»ÀûÀ¸·Î ¼³Ä¡µÇ¾îÀÖÀ¸¸ç xWindow(GUI) È¯°æÀ» ±âº»À¸·Î Á¦°øÇÑ´Ù..
+1 : Desktop : ì„¤ì¹˜ì‹œ Linuxìš© Office ë° ê¸°íƒ€ í•„ìˆ˜ Utilityë“¤ì´ ê¸°ë³¸ì ìœ¼ë¡œ ì„¤ì¹˜ë˜ì–´ìˆìœ¼ë©° xWindow(GUI) í™˜ê²½ì„ ê¸°ë³¸ìœ¼ë¡œ ì œê³µ
 
-2 : Server : ¼³Ä¡½Ã Server¿¡ ÇÊ¿äÇÑ ºÎºĞ¸¸ Install µÇ¸ç xWindow ´Â ÇÊ¿ä½Ã µû·Î ¼³Ä¡ÇØ¾ß ÇÑ´Ù 
+2 : Server : ì„¤ì¹˜ì‹œ Serverì— í•„ìš”í•œ ë¶€ë¶„ë§Œ Install, xWindow ëŠ” í•„ìš”ì‹œ ë”°ë¡œ ì„¤ì¹˜ 
