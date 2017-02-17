@@ -1,27 +1,15 @@
 # I-Studied
-- Directories are defiend as name of Language.
 
-## JAVA
-#### - Java version 1.8.0
+## Rules of Commit
 
-1. Files are uploaded as '.java'.
-2. Each project has Folder that defined as project name.
-3. Explanation of project is uploaded as markdown file.
-4. When I upload file which was modified, I will mention '(modified)' in summary and explain about modified part of files.
+- Directories are defiend as name of language or name of tech.
 
-## Python
-#### - Python version 3.5.1
-#### - Flask version 0.10.1
+- 'Directory name'_coding folder is code of program written as its language or tech.
 
-1. Files are uploaded as '.py'.
-2. Each project can be divided by summary.
-3. When I upload file which was modified, I will mention '(modified)' in summary.
-4. I will explain about modified part and explanation on description part. 
+- Explanation of project is uploaded as markdown file.
 
-## C
-#### - gcc version 4.8.5
+- When I upload file which was modified, I will mention '(modified)' in summary and explain about modified part of files.
 
-1. Files are written in Linux Vim.
-2. Each Files are uploaded as '.c'.
-3. Committed files are about only Algorithm and Data Structure.
-4. When I upload file which was modified, I will mention '(modified)' in summary and explain about modified part of files.
+- Files are uploaded as 'file.extender'
+
+- Each project has Folder that defined as project name.
