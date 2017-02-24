@@ -65,4 +65,4 @@ Key 값과 정렬된 리스트가 주어졌을 때, Key값을 정렬된 List의 
 - 알고리즘 자체가 매우 간단하며, 기존 자료가 어느 정도 정렬 되어 있을 때 효율적
 
 
-Implement in Java https://github.com/BKJang/I-Studied/tree/master/JAVA/InsertionSort
+Implement in Java : https://github.com/BKJang/I-Studied/tree/master/JAVA/InsertionSort
