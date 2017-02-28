@@ -39,8 +39,50 @@
 접근을 할 수 있어야 파일 및 디렉토리를 읽을 수 있고 읽을 수 있어야 수정하거나, 삭제할 수 있다. 즉, 접근 권한이 보장이 되어야 한다.
 
 
+### chmod
+
+- chmod : 허가권 설정(사용자 권한 : w / 그룹의 권한 : r / 그외 사용자 : o)  
+ 
+```sh
+
+# numeric method
+ 
+chmod 461 file/directory (4 : r / 6 : r+w / 1 : x)
+
+# 사용자에게 읽기 권한 부여 / 그룹에 읽고 쓰기 권한 부여 / 그 외 사용자에게 접근권한 부여
+
+
+# symbolic method
+ 
+chmod g+r file/directory (g : group / r : read) 
+
+# 그룹에 읽기 권한 부여
+
+```
+
 ## Ownership(소유권)
 
 ![Markdown Here logo](http://cfile8.uf.tistory.com/image/2154FA44578E58BD08D923)
 
-- 앞 부분의 root가 소유자, 뒤의 root가 소유그룹이다.
+- 앞 부분의 root가 소유자, 뒤의 root가 소유그룹
+
+### chown
+
+- chown : 소유자 및 소유그룹 설정
+
+```sh
+
+# 소유자만 변경하고 싶을 때 (소유자 root를 tcpdump로 변경)
+
+chown tcpdump /a/testing
+
+# 소유자와 소유그룹 모두 변경하고 싶을 때 (소유자를 root로 소유그룹을 test로 변경)
+
+chown root:test /a/testing
+
+# 소유그룹만 변경하고 싶을 때 (소유그룹 test를 root로 변경)
+
+chown .root /a/testing
+
+```
+ 
