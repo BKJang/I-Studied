@@ -28,3 +28,27 @@
 - 각각의 허가권을 실행파일에 적용했을 때, 허가권을 4750을 주면 필요한 권한을 가지되, 사용자 입장에서는 사용할 수 없게 된다. 
 
 ![Markdown Here logo](http://cfile22.uf.tistory.com/image/2152404C5793BF0B144D0A)
+
+#### Sticky bit
+ 
+- Sticky bit가 설정된 디렉토리에는 누구든 접근가능하고, 파일을 생성 가능 Sticky bit
+
+- 하지만 생성된 파일을 삭제시에는 소유자(파일 생성자)와 관리자만 지울 수 있게 된다. 다른 사용자는 자신의 소유가 아닌 파일을 삭제할 수 없다.
+
+[Example]
+
+1. 교수님이 /professor/test/에 testing이라는 숙제파일을 올리라고 지시를 했다.
+
+![Markdown Here logo]
+
+2. a는 성실한 학생이라 올렸는데 b는 게으른 학생이라서 a가 숙제를 올리면 그 숙제를 삭제해버린다.
+
+![Markdown Here logo]
+
+3. 그래서 a는 교수님에게 말하고 교수님은 권한을 재설정한다.(Sticky bit)
+
+![Markdown Here logo]
+
+4. 그리고나서 a는 다시 숙제를 서버에 올리고, b는 다시 삭제하려하지만 실패한다.
+
+![Markdown Here logo]
