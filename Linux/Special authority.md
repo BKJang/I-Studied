@@ -37,21 +37,21 @@
 
 [Example]
 
-1. 교수님이 /professor/test/에 testing이라는 숙제파일을 올리라고 지시를 했다.
+- 교수님이 /professor/test/에 testing이라는 숙제파일을 올리라고 지시를 했다.
 
 ![Markdown Here logo](http://cfile3.uf.tistory.com/image/237A03355793B443164CA4)
 
-2. a는 성실한 학생이라 올렸는데 b는 게으른 학생이라서 a가 숙제를 올리면 그 숙제를 삭제해버린다.
+- a는 성실한 학생이라 올렸는데 b는 게으른 학생이라서 a가 숙제를 올리면 그 숙제를 삭제해버린다.
 
 ![Markdown Here logo](http://cfile25.uf.tistory.com/image/2779E4355793B7411931D4)
 
 ![Markdown Here logo](http://cfile8.uf.tistory.com/image/27444E375793B75F101E43)
 
-3. 그래서 a는 교수님에게 말하고 교수님은 권한을 재설정한다.(Sticky bit)
+- 그래서 a는 교수님에게 말하고 교수님은 권한을 재설정한다.(Sticky bit)
 
 ![Markdown Here logo](http://cfile6.uf.tistory.com/image/237688455793B87313E891)
 
-4. 그리고나서 a는 다시 숙제를 서버에 올리고, b는 다시 삭제하려하지만 실패한다.
+- 그리고나서 a는 다시 숙제를 서버에 올리고, b는 다시 삭제하려하지만 실패한다.
 
 ![Markdown Here logo](http://cfile22.uf.tistory.com/image/236F253F5793B9781A6C34)
 
