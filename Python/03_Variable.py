@@ -51,7 +51,7 @@ print('{2} {2} {1} {0}'.format(12, 34, 56)) # 56 56 34 12
 print('{} / {} = {:.2f}'.format(5, 2, 5 / 2)) # 5 / 2 = 2.50
 print('{0} / {1} = {2:.4f}'.format(13, 3, 13 / 3)) # 13 / 3 = 4.3333
 
-#문자열 메서도(Method)
+#문자열 메서(Method)
 s="aBvdb"
 print(s.upper()) #ABVDB
 print(s.lower()) #abvdb
