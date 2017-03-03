@@ -27,3 +27,9 @@ umask = 002
 
 - 여기서 UMASK값을 뺀 값이 해당 파일의 허가권(Permission)
 
+![Markdown Here logo](
+
+![Markdown Here logo](
+
+- 위의 그림은 UMASK를 통해 파일과 디렉토리의 허가권을 설정하는 과정
+- 밑의 그림은 디렉토리와 파일이 허가권(755, 664)를 갖기 위해 UMASK 값을 결정하는 과정
