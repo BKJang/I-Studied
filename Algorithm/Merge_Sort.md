@@ -72,4 +72,4 @@ C[1, 2, 4, 5, 6, 7, 8, 9]
 
 - 시간 복잡도 : cnlogn+cn = O(nlogn)
 
-Implement in Java :(https://github.com/BKJang/I-Studied/tree/master/JAVA/Merge%20Sort)
+Implement in Java : https://github.com/BKJang/I-Studied/tree/master/JAVA/Merge%20Sort
