@@ -29,10 +29,10 @@ umask = 002
 
 - 파일의 Permission(허가권)의 값은 최대 666이고, 디렉토리의 Permission의 값은 최대 777 
 
-- 여기서 UMASK값을 뺀 값이 해당 파일의 허가권(Permission)
+- 여기서 UMASK값을 뺀 값이 해당 파일의 Permission
 
 ![Markdown Here logo](http://cfile22.uf.tistory.com/image/21464F4B579796D6356357)
 
-- 위의 그림은 UMASK를 통해 파일과 디렉토리의 허가권을 설정하는 과정
+- 위의 그림은 UMASK를 통해 masking 하는 과정
 
 - 밑의 그림은 디렉토리와 파일이 허가권(755, 664)를 갖기 위해 UMASK 값을 결정하는 과정
