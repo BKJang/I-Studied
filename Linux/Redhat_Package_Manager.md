@@ -1,4 +1,4 @@
-# Redhat Package Manager(rpm)
+# Redhat_Package_Manager(rpm)
 
 ## rpm
 
@@ -46,3 +46,48 @@
 [Option]
 
 1. -qa : 패키지 전체 목록을 조회
+
+2. -e : 패키지를 설치
+
+3. -ivh : 패키지를 설치 (i : 패키지 설치, v : 작업과정을 자세하게 보여줌, h : 작업과정을 hash mark로 표현)
+
+4. --nodeps : 의존성 오류를 무시하고 작업을 실행(추가 옵션이기 때문에 다른 옵션과 같이 사용)
+
+
+```sh
+
+# -qa
+
+rpm -qa | grep [패키지명]
+
+# -e
+
+rpm -e [패키지명]
+
+# -ivh
+
+rpm -ivh [패키지명.rpm]
+
+# --nodeps
+
+rpm -e --nodeps [패키지명]
+
+```
+
+[Example]
+
+- -qa
+
+![Markdown Here logo](http://cfile21.uf.tistory.com/image/222C0B3D57974148172C1E)
+
+- -e
+
+![Markdown Here logo](http://cfile21.uf.tistory.com/image/267B3D4457974A2633809F)
+
+- -ivh
+
+![Markdown Here logo](http://cfile6.uf.tistory.com/image/27623C4557974A3B1AF316)
+
+- --nodeps
+
+![Markdown Here logo](http://cfile21.uf.tistory.com/image/213B383957975AA61331A6) 
