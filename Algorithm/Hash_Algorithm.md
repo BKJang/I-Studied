@@ -18,6 +18,14 @@
 
 - 이 때, h()를 해쉬 함수라고 부른다.
 
+- Direct-Address Table과 Hash Table의 비교
+
+1. Direct-Address
+
+![Markdown Here logo](http://cfile30.uf.tistory.com/image/243C0F4D58C544C5266079)
+
+2. Hash
+
 ![Markdown Here logo](http://cfile29.uf.tistory.com/image/265D734D58C544C6226816)
 
 
@@ -36,6 +44,7 @@
 
 
 ### 수행시간
+
 - 최악의 경우 수행시간 : O(n)
 
 모든 key 값 k가 하나의 slot에 hashing되는 경우 길이가 n인 Double LinkedList가 생성
@@ -65,3 +74,81 @@
 m = '2^p'인 경우, '2^p-1'인 경우는 피하는 것이 좋다.
 
 2^p에 너무 가깝지 않은 소수를 선택하는 것이 좋다.
+
+
+## Open-Addressing
+
+- Collision을 피하기 위한 다른 방법으로 key를 hash table에 직접 저장
+
+- 포인터를 사용하지 않아도 되므로 구현이 간편
+
+- 포인터를 사용하지 않으므로 추가 메모리 공간 사용 가능
+
+
+#### 선형 프로빙(Linear Probing)
+
+```sh
+
+# m=13, k={5, 14, 29, 25, 17, 21, 18, 32, 20, 9, 15, 27}
+
+h(k) = k mod 13
+
+```
+
+- 구현은 매우 쉬우나 primary clustering의 문제
+
+- 값이 들어있는 slot의 수가 많으면 평균 검색시간이 증가
+
+
+#### 이차식 프로빙(Quadratic Probing)
+
+- h(k,i) = (h'(k)) + c1i +c2i^2) mod m
+
+- 이 때, h'는 보조 해쉬 함수이고 c1과 c2는 0이 아닌 상수
+
+- 즉, 주어진 hash함수 외에 i에 대한 2차 함수꼴로 slot을 이동하면서 빈 slot을 찾는다.
+
+```sh
+
+# m=13, k={5, 14, 29, 25, 17, 21, 18, 32, 20, 9, 15, 27}
+
+h(k, i) = (k + i + 3i^2) mod 13 # i=충돌 횟수
+
+```
+
+- 만약, 두 key의 처음 probe 값이 동일하다면 빈 slot을 찾는 과정이 동일하므로 같은 slot을 탐색
+
+- 이런 특성을 secondary clustering이라고 함
+
+- 즉 처음 충돌한 위치가 같다면 다음 충돌할 위치에서도 반복적으로 계속 충돌이 발생
+
+
+#### 이중 해싱(Double Hashing)
+
+- 해싱을 두번 한다.
+
+- h(k,i) = (h1(k) + i*h2(k)) mod m
+
+- 처음 탐색하는 위치는 T[h1(k)]
+
+- 그 다음부터는 h2(k) mod m만큼 이동하면서 탐색
+
+- 즉, 충돌이 발생하면 이동하는 거리가 hash함수에 의해 계산되어 무작위로 빈 slot을 찾는다.
+
+```sh
+
+# m=13, k={5, 14, 29, 25, 17, 21, 18, 32, 20, 9, 15, 27}
+
+h1(k) = k mod 13
+
+h2(k) = 1 + (k mod 11)
+
+h(k,i) = (h1(k) + i*h2(k)) mod 13
+
+```
+
+- h2(k) 함수는 해쉬 테이블의 크기 m과 서로 소 관계여야 한다.
+
+- 이것을 만족하는 가장 쉬운 방법은 m을 2의 지수승으로 두고 h2가 항상 홀수가 되도록
+
+- 다른 방법은 m을 소수로 하고 h2를 m보다 작은 양수로 정하는 것
