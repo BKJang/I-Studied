@@ -18,14 +18,6 @@
 
 - 이 때, h()를 해쉬 함수라고 부른다.
 
-- Direct-Address Table과 Hash Table의 비교
-
-1. Direct-Address
-
-![Markdown Here logo](http://cfile30.uf.tistory.com/image/243C0F4D58C544C5266079)
-
-2. Hash
-
 ![Markdown Here logo](http://cfile29.uf.tistory.com/image/265D734D58C544C6226816)
 
 
