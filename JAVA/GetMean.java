@@ -11,11 +11,10 @@ public class GetMean {
       }
       return a/array.length;
     }
-
+//main
     public static void main(String[] args) {
         int x[] = {5, 4, 3};
         GetMean getMean = new GetMean();
-        //main
         System.out.println("평균값 : " + getMean.getMean(x));
     }
 }
