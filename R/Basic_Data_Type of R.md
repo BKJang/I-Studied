@@ -1,4 +1,4 @@
-# Data_Type of R
+# Basic_Data_Type of R
 
 ## Basic data type
 
