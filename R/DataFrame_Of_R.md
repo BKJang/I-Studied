@@ -2,13 +2,13 @@
 
 ## DataFrame
 
-- 2°³ÀÇ Â÷¿øÀ¸·Î ÀÌ·ïÁø table ÇüÅÂÀÇ ÀÚ·á
+- 2ê°œì˜ ì°¨ì›ìœ¼ë¡œ ì´ë¤„ì§„ table í˜•íƒœì˜ ìë£Œ
 
-- Ã³¸®ÇÒ µ¥ÀÌÅÍ¸¦ ¿¢¼¿ÀÇ ½ºÇÁ·¹µå ½ÃÆ®¿Í °°ÀÌ Á¤¸®
+- ì²˜ë¦¬í•  ë°ì´í„°ë¥¼ ì—‘ì…€ì˜ ìŠ¤í”„ë ˆë“œ ì‹œíŠ¸ì™€ ê°™ì´ ì •ë¦¬
 
-- °¢ º¯¼ö´Â ¼­·Î ´Ù¸¥ µ¥ÀÌÅÍ¸¦ °¡Áú ¼ö ÀÖÀ½
+- ê° ë³€ìˆ˜ëŠ” ì„œë¡œ ë‹¤ë¥¸ ë°ì´í„°ë¥¼ ê°€ì§ˆ ìˆ˜ ìˆìŒ
 
-- ´Ü, ¸ğµç °üÃø °ªÀÇ ±æÀÌ°¡ °°¾Æ¾ß ÇÔ(¿ø¼ÒÀÇ °³¼ö)
+- ë‹¨, ëª¨ë“  ê´€ì¸¡ ê°’ì˜ ê¸¸ì´ê°€ ê°™ì•„ì•¼ í•¨(ì›ì†Œì˜ ê°œìˆ˜)
 
 ```sh
 
@@ -119,11 +119,11 @@ people[,2]
 
 class(people[1])
 
-# [1] "data.frame" # dataframeÀÇ ÇüÅÂ·Î
+# [1] "data.frame" # dataframeì˜ í˜•íƒœë¡œ
 
 class(people[,1])
 
-# [1] "factor" # factorÀÇ ÇüÅÂ·Î
+# [1] "factor" # factorì˜ í˜•íƒœë¡œ
 
 people$Age
 
@@ -152,7 +152,7 @@ people[c(1,2), ]
 # 1 Anne  28 FALSE
 # 2 Pete  30  TRUE
 
-people[, c(1,2)] # dataframeÀÇ ÇüÅÂ·Î
+people[, c(1,2)] # dataframeì˜ í˜•íƒœë¡œ
 
 #    Name Age
 # 1  Anne  28
@@ -160,5 +160,286 @@ people[, c(1,2)] # dataframeÀÇ ÇüÅÂ·Î
 # 3 Frank  21
 # 4 Julia  39
 # 5  Cath  35
+
+people <- data.frame(Name, Age, Child, stringsAsFactors = FALSE) # factoríƒ€ì…ì˜ ìë£Œë¥¼ Vectorë¡œ
+
+class(people[,1])
+
+# [1] "character"
+
+```
+
+#### Add column and row
+
+```sh
+
+name <- c("Anne", "Pete", "Frank", "Julia", "Cath") # dataframe ìƒì„±
+
+age <- c(28, 30, 21, 39, 35)
+
+child <- c(FALSE, TRUE, TRUE, FALSE, TRUE)
+
+people <- data.frame(name, age, child, stringsAsFactors = FALSE)
+
+# 1. Add col
+
+people$height <- c(163, 177, 163, 162, 157) ; people # height ì†ì„± ì¶”ê°€
+
+#    name age child height
+# 1  Anne  28 FALSE    163
+# 2  Pete  30  TRUE    177
+# 3 Frank  21  TRUE    163
+# 4 Julia  39 FALSE    162
+# 5  Cath  35  TRUE    157
+
+people1 <- people
+
+people1$birthyear <- paste0("198", 1:5);people1
+
+# name age child height birthyear
+# 1  Anne  28 FALSE    163      1981
+# 2  Pete  30  TRUE    177      1982
+# 3 Frank  21  TRUE    163      1983
+# 4 Julia  39 FALSE    162      1984
+# 5  Cath  35  TRUE    157      1985
+
+
+# pasteì™€ paste0 ë¹„êµ
+
+paste('a', 'b', sep="")
+[1] "ab"
+
+paste0('a', 'b') # pasteì— sepì˜µì…˜ì„ ì¶”ê°€í•˜ëŠ” ê²ƒê³¼ ê°™ì€ íš¨ê³¼
+[1] "ab"
+
+
+weight <- c(74, 63, 68, 55, 56)
+
+cbind(people, weight) # cbindí•¨ìˆ˜ë¥¼ ì´ìš©í•´ì„œ ë§Œë“¤ì–´ì ¸ìˆëŠ” ì†ì„±ì„ ê·¸ëŒ€ë¡œì¶”ê°€
+
+#    name age child height weight
+# 1  Anne  28 FALSE    163     74
+# 2  Pete  30  TRUE    177     63
+# 3 Frank  21  TRUE    163     68
+# 4 Julia  39 FALSE    162     55
+# 5  Cath  35  TRUE    157     56
+
+
+# 2.Add row
+
+people$weight <- weight
+
+people$birthyear <-  paste0("198", 1:5)
+
+people
+
+#    name age child height weight birthyear
+# 1  Anne  28 FALSE    163     74      1981
+# 2  Pete  30  TRUE    177     63      1982
+# 3 Frank  21  TRUE    163     68      1983
+# 4 Julia  39 FALSE    162     55      1984
+# 5  Cath  35  TRUE    157     56      1985
+
+tom <- data.frame(name="Tom", age=37, child=FALSE, height=160, weight=42, birthyear=1986) # ê¸°ì¡´ dataframeì˜ ì†ì„±ëª…ê³¼ ì¼ì¹˜ì‹œì¼œì¤˜ì•¼ ëœë‹¤.
+
+rbind(people, tom)
+
+#    name age child height weight birthyear
+# 1  Anne  28 FALSE    163     74      1981
+# 2  Pete  30  TRUE    177     63      1982
+# 3 Frank  21  TRUE    163     68      1983
+# 4 Julia  39 FALSE    162     55      1984
+# 5  Cath  35  TRUE    157     56      1985
+# 6   Tom  37 FALSE    160     42      1986
+
+```
+
+#### subset()
+
+```sh
+
+subset(people, height>170)
+
+#   name age child height weight birthyear
+# 2 Pete  30  TRUE    177     63      1982
+
+subset(people, child==TRUE)
+ 
+#   name age child height weight birthyear
+# 2  Pete  30  TRUE    177     63      1982
+# 3 Frank  21  TRUE    163     68      1983
+# 5  Cath  35  TRUE    157     56      1985
+
+```
+
+#### Sorting
+
+```sh
+
+people
+
+#    name age child height weight birthyear
+# 1  Anne  28 FALSE    163     74      1981
+# 2  Pete  30  TRUE    177     63      1982
+# 3 Frank  21  TRUE    163     68      1983
+# 4 Julia  39 FALSE    162     55      1984
+# 5  Cath  35  TRUE    157     56      1985
+
+sort(people$age)
+
+# [1] 21 28 30 35 39
+
+ranks <- order(people$age) # order() : sortingëœ ì´í›„ì˜ ìˆœì„œë¥¼ ì•Œë ¤ì¤€ë‹¤. 
+
+ranks
+
+# [1] 3 1 2 5 4
+
+people[ranks, ]
+
+#    name age child height weight birthyear
+# 3 Frank  21  TRUE    163     68      1983
+# 1  Anne  28 FALSE    163     74      1981
+# 2  Pete  30  TRUE    177     63      1982
+# 5  Cath  35  TRUE    157     56      1985
+# 4 Julia  39 FALSE    162     55      1984
+
+[1] 3 1 2 5 4
+
+rank <- order(people$age, decreasing = TRUE) # ë‚´ë¦¼ì°¨ìˆœ
+
+people[rank, ]
+
+#    name age child height weight birthyear
+# 4 Julia  39 FALSE    162     55      1984
+# 5  Cath  35  TRUE    157     56      1985
+# 2  Pete  30  TRUE    177     63      1982
+# 1  Anne  28 FALSE    163     74      1981
+# 3 Frank  21  TRUE    163     68      1983
+
+```
+
+#### Extracting ALl Components
+
+```sh
+
+mean(people$age) # ì¤‘ê°„ ê°’
+
+# [1] 30.6
+
+cor(people$weight, people$height) # ìƒê´€ê´€ê³„
+
+# [1] 0.2022121
+
+attach(people)
+
+# The following objects are masked _by_ .GlobalEnv:
+
+#     age, child, name, weight
+
+mean(age)
+
+# [1] 30.6
+
+cor(weight, height)
+
+# [1] 0.2022121
+
+detach(people)
+
+```
+
+#### Utility Function
+
+```sh
+
+head(people, n=2)
+
+#   name age child height weight birthyear
+# 1 Anne  28 FALSE    163     74      1981
+# 2 Pete  30  TRUE    177     63      1982
+
+tail(people, n=2)
+
+#    name age child height weight birthyear
+# 4 Julia  39 FALSE    162     55      1984
+# 5  Cath  35  TRUE    157     56      1985
+
+View(people, "title")
+
+# titleì´ë¼ëŠ” ì´ë¦„ìœ¼ë¡œ í…Œì´ë¸” ìƒì„±
+
+ncol(people) # column ê°œìˆ˜
+
+# [1] 6
+
+nrow(people) # row ê°œìˆ˜
+
+# [1] 5
+
+names(people) # column ì´ë¦„ ì¶œë ¥
+
+# [1] "name"      "age"       "child"     "height"   "weight"    "birthyear"
+
+rownames(people) # row ì´ë¦„ ì¶œë ¥ == row.names()
+
+# [1] "1" "2" "3" "4" "5"
+
+colnames(people) # column ì´ë¦„ ì¶œë ¥ == col.names()
+
+# [1] "name"      "age"       "child"     "height"   "weight"    "birthyear"
+
+```
+
+#### ë°ì´í„° íƒ€ì… íŒë³„ í•¨ìˆ˜
+
+- class() : ê°ì²´ì˜ í´ë˜ìŠ¤
+
+- str() : ê°ì²´ì˜ êµ¬ì¡°
+
+- is.factors() : ê°ì²´ê°€ factorì¸ê°€
+
+- is.numeric() : ê°ì²´ê°€ ìˆ«ìë¥¼ ì €ì¥í•œ vectorì¸ê°€
+
+- is.character() : ê°ì²´ê°€ ë¬¸ìë¥¼ ì €ì¥í•œ vectorì¸ê°€
+
+- is.matrix() : ê°ì²´ê°€ matrixì¸ê°€
+
+- is.array() : ê°ì²´ê°€ arrayì¸ê°€
+
+- is.data.frame() : ê°ì²´ê°€ dataframeì¸ê°€
+
+
+#### ë°ì´í„° íƒ€ì… ë³€í™˜ í•¨ìˆ˜
+
+- as.factor()
+
+- as.numeric()
+
+- as.character()
+
+- as.matrix()
+
+- as.array()
+
+- as.data.frame()
+
+```sh
+
+x <- c("m", "f")
+
+as.factor (x)
+
+# [1] m f
+# Levels : f m
+
+as.numeric ( as.factor (x))
+
+# [1] 2 1
+
+factor (c("m", "f"), levels =c("m", "f"))
+
+# [1] m f
+# Levels : m f
 
 ```
