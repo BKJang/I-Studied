@@ -152,7 +152,8 @@ data() # 사용가능한 데이터 목록 제공
 
 df <- read.csv("lala_review_sample.csv", header = T, stringsAsFactors = F) # read.csv()
 
-df1 <- read.table("lala_review_sample.csv", sep = ",", header = T, stringsAsFactors = F) # read.table() : read.csv()에 sep = ","을 추가
+df1 <- read.table("lala_review_sample.csv", sep = ",", header = T, stringsAsFactors = F) 
+# read.table() : read.csv()에 sep = ","을 추가
 
 ```
 
