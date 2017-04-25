@@ -99,7 +99,8 @@ people[3, ]
 people[,"Age"]
 
 # [1] 28 30 21 39 35
-#  people[c(3, 5), c("Age", "Child")]
+
+people[c(3, 5), c("Age", "Child")]
 #   Age Child
 # 3  21  TRUE
 # 5  35  TRUE
