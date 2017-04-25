@@ -2,22 +2,22 @@
 
 ## Array
 
-- µ¿ÀÏÇÑ ¿ø¼Ò·Î¸¸ ±¸¼ºµÈ, ¿©·¯ °³ÀÇ Â÷¿øÀ¸·Î ±¸¼ºµÈ µ¥ÀÌÅÍ
+- ë™ì¼í•œ ì›ì†Œë¡œë§Œ êµ¬ì„±ëœ, ì—¬ëŸ¬ ê°œì˜ ì°¨ì›ìœ¼ë¡œ êµ¬ì„±ëœ ë°ì´í„°
 
-- Matrix°¡ 2Â÷¿ø µ¥ÀÌÅÍ¶ó¸é ¹è¿­(Array)´Â ´ÙÂ÷¿ø µ¥ÀÌÅÍ(2*3*4)
+- Matrixê°€ 2ì°¨ì› ë°ì´í„°ë¼ë©´ ë°°ì—´(Array)ëŠ” ë‹¤ì°¨ì› ë°ì´í„°(2*3*4)
 
 
 ```sh
 
-# [¹®¹ý]
+# [ë¬¸ë²•]
 
 array(data, dim=( , , ) dimnames=list(c( , ,), c( , ,), c( , , ))
 
-# data : µ¥ÀÌÅÍ¸¦ ÀúÀåÇÑ º¤ÅÍ
+# data : ë°ì´í„°ë¥¼ ì €ìž¥í•œ ë²¡í„°
 
-# dim : ¹è¿­ÀÇ Â÷¿ø, ÀÌ °ªÀ» ÁöÁ¤ÇÏÁö ¾ÊÀ¸¸é 1Â÷¿ø ¹è¿­ÀÌ »ý¼ºµÊ
+# dim : ë°°ì—´ì˜ ì°¨ì›, ì´ ê°’ì„ ì§€ì •í•˜ì§€ ì•Šìœ¼ë©´ 1ì°¨ì› ë°°ì—´ì´ ìƒì„±ë¨
 
-# dimnames : Â÷¿øÀÇ ÀÌ¸§
+# dimnames : ì°¨ì›ì˜ ì´ë¦„
 
 array1 <- array(1:18, dim=c(3,3,2), dimnames=list(c("a", "b", "c"),c("d", "e", "f"), c("g", "h")))
 
@@ -25,7 +25,7 @@ array1
 
 # , , g
 
-# d e f
+#   d e f
 # a 1 4 7
 # b 2 5 8
 # c 3 6 9
@@ -96,13 +96,13 @@ mean(y)
 
 # [1] 3
 
-mean(x[!is.na(x)]) # mean(y)¿Í °°Àº °á°ú
+mean(x[!is.na(x)]) # mean(y)ì™€ ê°™ì€ ê²°ê³¼
 
 # [1] 3
 
 ```
 
-- complete.cases() : ÇÏ³ª¶óµµ NA°¡ ÀÖ´Ù¸é °áÃøÄ¡¸¦ Á¦¿Ü½ÃÅ² °á°ú °ªÀ» »êÃâ
+- complete.cases() : í•˜ë‚˜ë¼ë„ NAê°€ ìžˆë‹¤ë©´ ê²°ì¸¡ì¹˜ë¥¼ ì œì™¸ì‹œí‚¨ ê²°ê³¼ ê°’ì„ ì‚°ì¶œ
 
 ```sh
 
