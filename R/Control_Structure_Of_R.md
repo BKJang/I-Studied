@@ -132,7 +132,6 @@ for(i in c("test", "for", "for()"))
 [1] "for"
 [1] "for()"
 
-
 x <- matrix(1:6, 2, 3)
 
 for(i in seq_len(nrow(x))){ # 1:nrow(x)
@@ -141,6 +140,15 @@ for(i in seq_len(nrow(x))){ # 1:nrow(x)
 +   }
 + }
 
+# When x is vector
+
+x <- c("a", "b", "c", "d")
+
+for(i in seq_along(x)) {
+print(x[i])
+}
+
+for(i in seq_along(
 # result
 
 [1] 1
