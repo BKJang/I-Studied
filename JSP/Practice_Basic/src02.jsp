@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+
+    
+<h2>°è»ê±â</h2>
+<form action="param02.jsp">
+¼öÄ¡1<input type = "text" size ="10" placeholder="Á¤¼öÀÔ·Â" name = "num1" /> 
+¼öÄ¡2<input type ="text" size ="10" placeholder="Á¤¼öÀÔ·Â" name = "num2" /> <br/>
+<input type = "radio" name = "op" value="add"/>µ¡¼À 
+<input type = "radio" name = "op" value="sub"/>»¬¼À
+<input type = "radio" name = "op" value="mul"/>°ö¼À
+<input type = "radio" name = "op" value="div"/>³ª´°¼À<br/>
+<input type = "submit"/>
+</form>
