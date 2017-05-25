@@ -1,4 +1,4 @@
-# Function Of R
+# Function of R
 
 ## Declaring functions within functions
 
@@ -31,7 +31,7 @@
 +     print(a)
 +   }
 + }
- 
+  
 > f('3', '4')
 
 [1] "3"
