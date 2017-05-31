@@ -2,15 +2,15 @@
 
 ## Purpose & Function
 
-- µ•¿Ã≈Õ ∫–ºÆ ∏Ò¿˚¿ª ¿ß«— µ•¿Ã≈Õ¿« ≈Ωªˆ(EDA)
+- Îç∞Ïù¥ÌÑ∞ Î∂ÑÏÑù Î™©Ï†ÅÏùÑ ÏúÑÌïú Îç∞Ïù¥ÌÑ∞Ïùò ÌÉêÏÉâ(EDA)
 
-- µ•¿Ã≈Õ ∫–ºÆ ∞·∞˙ ∞¯¿Ø∏¶ ¿ß«— ∫∏∞Ìº≠¿« Ω√∞¢»≠
+- Îç∞Ïù¥ÌÑ∞ Î∂ÑÏÑù Í≤∞Í≥º Í≥µÏú†Î•º ÏúÑÌïú Î≥¥Í≥†ÏÑúÏùò ÏãúÍ∞ÅÌôî
 
-- Communication : ∏ﬁΩ√¡ˆ∏¶ ∫¸∏£∞Ì Ω±∞‘ ¿¸¥ﬁ
+- Communication : Î©îÏãúÏßÄÎ•º Îπ†Î•¥Í≥† ÏâΩÍ≤å Ï†ÑÎã¨
 
-- Insight : ¿ÃπÃ æÀ∞Ì ¿÷¥¬ ∞Õø° ¥Î«— ≈Î¬˚∑¬¿ª æÚ¿Ω
+- Insight : Ïù¥ÎØ∏ ÏïåÍ≥† ÏûàÎäî Í≤ÉÏóê ÎåÄÌïú ÌÜµÏ∞∞Î†•ÏùÑ ÏñªÏùå
 
-- Discovery : ªı∑ŒøÓ ªÁΩ«∞¸∞Ë πﬂ∞ﬂ, ∏π¿∫ æÁ¿« ¡§∫∏∏¶ «•«ˆ
+- Discovery : ÏÉàÎ°úÏö¥ ÏÇ¨Ïã§Í¥ÄÍ≥Ñ Î∞úÍ≤¨, ÎßéÏùÄ ÏñëÏùò Ï†ïÎ≥¥Î•º ÌëúÌòÑ
 
 
 [Example]
@@ -47,124 +47,124 @@
 
 ```
 
-## µ•¿Ã≈Õ¿« ¡æ∑˘
+## Îç∞Ïù¥ÌÑ∞Ïùò Ï¢ÖÎ•ò
 
-#### √¯¡§ ∞™¿« ¿œπ›¿˚ ∫–∑˘
+#### Ï∏°Ï†ï Í∞íÏùò ÏùºÎ∞òÏ†Å Î∂ÑÎ•ò
 
-- ¿ÃªÍ«¸ ∫Øºˆ : ¿ÃªÍ«¸ µ•¿Ã≈Õ, π¸¡÷«¸ µ•¿Ã≈Õ(≥Ì∏Æ«¸, ¡§ºˆ«¸)
+- Ïù¥ÏÇ∞Ìòï Î≥ÄÏàò : Ïù¥ÏÇ∞Ìòï Îç∞Ïù¥ÌÑ∞, Î≤îÏ£ºÌòï Îç∞Ïù¥ÌÑ∞(ÎÖºÎ¶¨Ìòï, Ï†ïÏàòÌòï)
 
-- ø¨º”«ˆ ∫Øºˆ : ø¨º”«¸ µ•¿Ã≈Õ, ø¨º”«¸ ∫≠ºˆµµ ¿ÃªÍ«¸»≠∞° ∞°¥…(ºˆƒ°«¸)
-
-
-#### √¯¡§ πÊπ˝ø° µ˚∏• ∫–∑˘
-
-- ∏Ì∏Ò µ•¿Ã≈Õ : √¯¡§ ∞™¿Ã ∏Ì∏Ì µ… ºˆ ¿÷¥¬ µ•¿Ã≈Õ(≥≤, ≥‡)
-
-- º≠ø≠ µ•¿Ã≈Õ : º¯º≠ø° ¿««ÿ ∆Ø¡§µ» µ•¿Ã≈Õ(ºÆ¬˜, ¿˙º“µÊ, ¡ﬂ∞£º“µÊ, ∞Ìº“µÊ)
-
-- µÓ∞£ µ•¿Ã≈Õ : º¯º≠ + ≈©±‚¡§µµ But ºˆƒ°∞£¿« ∫Ò¿≤¿∫ ¿«πÃ∞° æ¯¿Ω(ø¬µµ - 30µµ∞° 15µµ ∫∏¥Ÿ 2πË ¥˛¡ˆ æ ¥Ÿ)
-
-- ∫Ò¿≤ µ•¿Ã≈Õ : º¯º≠ + ≈©±‚¡§µµ + ºˆƒ°∞£¿« ∫Ò¿≤ ∞¸∞Ë º∫∏≥(√º¡ﬂ)
+- Ïó∞ÏÜçÌòÑ Î≥ÄÏàò : Ïó∞ÏÜçÌòï Îç∞Ïù¥ÌÑ∞, Ïó∞ÏÜçÌòï Î≤ºÏàòÎèÑ Ïù¥ÏÇ∞ÌòïÌôîÍ∞Ä Í∞ÄÎä•(ÏàòÏπòÌòï)
 
 
-## µ•¿Ã≈Õ¿« Ω√∞¢»≠ πÊπ˝
+#### Ï∏°Ï†ï Î∞©Î≤ïÏóê Îî∞Î•∏ Î∂ÑÎ•ò
 
-#### «— ∫Øºˆø° ¥Î«— ±◊∏≤
+- Î™ÖÎ™© Îç∞Ïù¥ÌÑ∞ : Ï∏°Ï†ï Í∞íÏù¥ Î™ÖÎ™Ö Îê† Ïàò ÏûàÎäî Îç∞Ïù¥ÌÑ∞(ÎÇ®, ÎÖÄ)
 
-- ∏∑¥Î ±◊∏≤ : ¿ÃªÍ«¸, π¸¡÷«¸ ∫Øºˆ¿« µ•¿Ã≈Õ ∞™ø° ¥Î«— ∫Ûµµ ºˆ
+- ÏÑúÏó¥ Îç∞Ïù¥ÌÑ∞ : ÏàúÏÑúÏóê ÏùòÌï¥ ÌäπÏ†ïÎêú Îç∞Ïù¥ÌÑ∞(ÏÑùÏ∞®, Ï†ÄÏÜåÎìù, Ï§ëÍ∞ÑÏÜåÎìù, Í≥†ÏÜåÎìù)
+
+- Îì±Í∞Ñ Îç∞Ïù¥ÌÑ∞ : ÏàúÏÑú + ÌÅ¨Í∏∞Ï†ïÎèÑ But ÏàòÏπòÍ∞ÑÏùò ÎπÑÏú®ÏùÄ ÏùòÎØ∏Í∞Ä ÏóÜÏùå(Ïò®ÎèÑ - 30ÎèÑÍ∞Ä 15ÎèÑ Î≥¥Îã§ 2Î∞∞ Îç•ÏßÄ ÏïäÎã§)
+
+- ÎπÑÏú® Îç∞Ïù¥ÌÑ∞ : ÏàúÏÑú + ÌÅ¨Í∏∞Ï†ïÎèÑ + ÏàòÏπòÍ∞ÑÏùò ÎπÑÏú® Í¥ÄÍ≥Ñ ÏÑ±Î¶Ω(Ï≤¥Ï§ë)
+
+
+## Îç∞Ïù¥ÌÑ∞Ïùò ÏãúÍ∞ÅÌôî Î∞©Î≤ï
+
+#### Ìïú Î≥ÄÏàòÏóê ÎåÄÌïú Í∑∏Î¶º
+
+- ÎßâÎåÄ Í∑∏Î¶º : Ïù¥ÏÇ∞Ìòï, Î≤îÏ£ºÌòï Î≥ÄÏàòÏùò Îç∞Ïù¥ÌÑ∞ Í∞íÏóê ÎåÄÌïú ÎπàÎèÑ Ïàò
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMTky/MDAxNDk1NTg2OTk1Njcw.rXo8D-KmSTpHXA18lwQ_UZd5AUe7map5K1owrOzAV8kg.3t51DQRzmU-JJIvCW862e-WZ7K8bM60FxzfFer40f4gg.PNG.jp302119/%EB%A7%89%EB%8C%80%EA%B7%B8%EB%A6%BC.png)
 
-- ø¯ ±◊∏≤ : ø¯¿ª µµºˆ¿« ∫Ò∑ «œ∞‘ ¡∂∞¢¿∏∑Œ ≥™¥©æÓ ±◊∏∞ ±◊∏≤
+- Ïõê Í∑∏Î¶º : ÏõêÏùÑ ÎèÑÏàòÏùò ÎπÑÎ°ÄÌïòÍ≤å Ï°∞Í∞ÅÏúºÎ°ú ÎÇòÎàÑÏñ¥ Í∑∏Î¶∞ Í∑∏Î¶º
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMjEz/MDAxNDk1NTg2OTk3MTM4.tbXtaZnlHh8jPQtNJecRc2BaLVeNNDjhYHUwrZHW1ykg.7jRsA7vxeZFAFQc2tgJYO4hnwsLv5lqyH4fMN7IT9vAg.PNG.jp302119/%EC%9B%90%EA%B7%B8%EB%A6%BC.png)
 
-- »˜Ω∫≈‰±◊∑• : ø¨º”«¸ ∫Øºˆ∏¶ ø©∑Ø ∞Ë±ﬁ ±∏∞£¿∏∑Œ ≥™¥©æÓ µµºˆ∫–∆˜«• ±◊∏≤
+- ÌûàÏä§ÌÜ†Í∑∏Îû® : Ïó∞ÏÜçÌòï Î≥ÄÏàòÎ•º Ïó¨Îü¨ Í≥ÑÍ∏â Íµ¨Í∞ÑÏúºÎ°ú ÎÇòÎàÑÏñ¥ ÎèÑÏàòÎ∂ÑÌè¨Ìëú Í∑∏Î¶º
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMjEg/MDAxNDk1NTg2OTk3NDE3.25SX8hsiNe03e2qXpJxgwqqQ_wUCu7fN06WxbEFX-mkg.5g-M7rX8YGOKX2Z2pZv0Xw3i6uJ2SvBfK0TyWAFJjpsg.PNG.jp302119/%ED%9E%88%EC%8A%A4%ED%86%A0%EA%B7%B8%EB%9E%A8.png)
 
 
-#### µŒ ∫Øºˆø° ¥Î«— ±◊∏≤
+#### Îëê Î≥ÄÏàòÏóê ÎåÄÌïú Í∑∏Î¶º
 
-- º±±◊∏≤, Ω√∞Ëø≠ ±◊∏≤ : x√‡, y√‡ ∞¢∞¢ ∫Øºˆ¿« ∞¸¬˚ ∞™¿ª ¡¬«•∑Œ «œø© º±¿ª ±◊∏≤
+- ÏÑ†Í∑∏Î¶º, ÏãúÍ≥ÑÏó¥ Í∑∏Î¶º : xÏ∂ï, yÏ∂ï Í∞ÅÍ∞Å Î≥ÄÏàòÏùò Í¥ÄÏ∞∞ Í∞íÏùÑ Ï¢åÌëúÎ°ú ÌïòÏó¨ ÏÑ†ÏùÑ Í∑∏Î¶º
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMTQ4/MDAxNDk1NTg2OTk2OTY2.x63Ioul0toLw4Ho6ta8OAkBRzEdB0zW9s5LAOYnH23wg.T5zrm6pIzXieettsFh7UFXIkn_cFtysQHjyebWPslEUg.PNG.jp302119/%EC%84%A0%EA%B7%B8%EB%A6%BC.png)
 
-- ªÍ¡°µµ : x√‡, y√‡ ∞¢∞¢ ∫Øºˆ¿« ∞¸¬˚ ∞™¿ª ¡¬«•∑Œ «œø© ¡°¿ª ±◊∏≤
+- ÏÇ∞Ï†êÎèÑ : xÏ∂ï, yÏ∂ï Í∞ÅÍ∞Å Î≥ÄÏàòÏùò Í¥ÄÏ∞∞ Í∞íÏùÑ Ï¢åÌëúÎ°ú ÌïòÏó¨ Ï†êÏùÑ Í∑∏Î¶º
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfODcg/MDAxNDk1NTg2OTk2Njg1.PHyoQ-blOHQeh52OeI1v6HvJ2VEEqFzcgziDybrUoKcg.PK6zIESw55iqq5SpoSCh7ntuc3eddBgvJ8Kmn2_Ulcwg.PNG.jp302119/%EC%82%B0%EC%A0%90%EB%8F%84.png)
 
 
-#### ¥Ÿ¡ﬂ ∫Øºˆø° ¥Î«— ±◊∏≤
+#### Îã§Ï§ë Î≥ÄÏàòÏóê ÎåÄÌïú Í∑∏Î¶º
 
-- ªÍ¡°µµ «‡∑ƒ : ø©∑Ø ∞≥¿« ∫Øºˆ Ω÷ø° ¥Î«— ªÍ¡°µµ
+- ÏÇ∞Ï†êÎèÑ ÌñâÎ†¨ : Ïó¨Îü¨ Í∞úÏùò Î≥ÄÏàò ÏåçÏóê ÎåÄÌïú ÏÇ∞Ï†êÎèÑ
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1Mj RfNDYg/MDAxNDk1NTg2OTk2NDU1.5kzx33dZRFqrWJIz9IQexbv5-swM697CGdEPxBQpj20g.tBLk9VmlTuxfA3HJTbQGW9Sdm0Ja-7X-QulL07Nj4j0g.PNG.jp302119/%EC%82%B0%EC%A0%90%EB%8F%84_%ED%96%89%EB%A0%AC.png)
 
-- ∏¿⁄¿Ã≈© ±◊∏≤ : ¿ÃªÍ«¸ µ•¿Ã≈Õ¿« ¥Ÿ¬˜ø¯ µµºˆ∫–∆˜«•∏¶ ∫Øºˆ ∫∞∑Œ ∫Ò±≥ ∞°¥…
+- Î™®ÏûêÏù¥ÌÅ¨ Í∑∏Î¶º : Ïù¥ÏÇ∞Ìòï Îç∞Ïù¥ÌÑ∞Ïùò Îã§Ï∞®Ïõê ÎèÑÏàòÎ∂ÑÌè¨ÌëúÎ•º Î≥ÄÏàò Î≥ÑÎ°ú ÎπÑÍµê Í∞ÄÎä•
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMjcg/MDAxNDk1NTg2OTk2MTAz.6deRYg6fr0dltauNEoYl1xDbixKFbCD17Fd8noEJQAMg.AwVbjWhoX4yaneWM4iXyEaL26f31M7WkRM_trr6t9jcg.PNG.jp302119/%EB%AA%A8%EC%9E%90%EC%9D%B4%ED%81%AC.png)
 
-- ∑π¿Ã≈Õ ¬˜∆Æ, ∆Ú«‡¡¬«• ±◊∏≤, √º∏£≥Î«¡ æ»«¸ ±◊∏≤
+- Î†àÏù¥ÌÑ∞ Ï∞®Ìä∏, ÌèâÌñâÏ¢åÌëú Í∑∏Î¶º, Ï≤¥Î•¥ÎÖ∏ÌîÑ ÏïàÌòï Í∑∏Î¶º
 
 
-## ∞Ìºˆ¡ÿ Ω√∞¢»≠ «‘ºˆ
+## Í≥†ÏàòÏ§Ä ÏãúÍ∞ÅÌôî Ìï®Ïàò
 
-- ±◊∑°«» ¿Âƒ° ¿ßø° ∆ƒ¿Ã¬˜∆Æ≥™ ∏∑¥Î ±◊∑°«¡øÕ ∞∞¿Ã µ∂∏≥µ» Ω√∞¢»≠ «•«ˆ¿ª «œ¥¬ «‘ºˆ
+- Í∑∏ÎûòÌîΩ Ïû•Ïπò ÏúÑÏóê ÌååÏù¥Ï∞®Ìä∏ÎÇò ÎßâÎåÄ Í∑∏ÎûòÌîÑÏôÄ Í∞ôÏù¥ ÎèÖÎ¶ΩÎêú ÏãúÍ∞ÅÌôî ÌëúÌòÑÏùÑ ÌïòÎäî Ìï®Ïàò
 
-- ¿˙ºˆ¡ÿ ±◊∑°«»¿ª ¿˚¿˝«œ∞‘ ¡∂«’«œø© ±∏«ˆ
+- Ï†ÄÏàòÏ§Ä Í∑∏ÎûòÌîΩÏùÑ Ï†ÅÏ†àÌïòÍ≤å Ï°∞Ìï©ÌïòÏó¨ Íµ¨ÌòÑ
 
-## ¿˙ºˆ¡ÿ Ω√∞¢»≠ «‘ºˆ
+## Ï†ÄÏàòÏ§Ä ÏãúÍ∞ÅÌôî Ìï®Ïàò
 
-- ±◊∑°«» ¿Âƒ° ¿ßø° ¡°¿ª ¬Ô∞Ì º±¿ª ±◊∏Æ∞Ì ¥Ÿ∞¢«¸¿ª ±◊∏Æ¥¬ µÓ¿« ±‚¥…¿ª «œ¥¬
+- Í∑∏ÎûòÌîΩ Ïû•Ïπò ÏúÑÏóê Ï†êÏùÑ Ï∞çÍ≥† ÏÑ†ÏùÑ Í∑∏Î¶¨Í≥† Îã§Í∞ÅÌòïÏùÑ Í∑∏Î¶¨Îäî Îì±Ïùò Í∏∞Îä•ÏùÑ ÌïòÎäî
 
-- ¡Ô, Ω√∞¢»≠∏¶ ±∏«ˆ«œ±‚ ¿ß«ÿ Rø°º≠ ¡¶∞¯«œ¥¬ ±‚√  «‘ºˆ
+- Ï¶â, ÏãúÍ∞ÅÌôîÎ•º Íµ¨ÌòÑÌïòÍ∏∞ ÏúÑÌï¥ RÏóêÏÑú Ï†úÍ≥µÌïòÎäî Í∏∞Ï¥à Ìï®Ïàò
 
 ![Markdown Here logo](http://postfiles9.naver.net/MjAxNzA1MjRfMTYy/MDAxNDk1NTg5MjU5MjY1.NcctaHAoo1pt9Rj8Q7OBOD6B5ElzOHUQ5mDPAq64X0kg.r8ohSUzE0FKZtIzbN3XRoMfDw4enIlB92peyaSSTXC0g.PNG.jp302119/plot.png?type=w2)
 
 ```sh
 
-#∞Ìºˆ¡ÿ Ω√∞¢»≠ «‘ºˆ
+#Í≥†ÏàòÏ§Ä ÏãúÍ∞ÅÌôî Ìï®Ïàò
 
 > z<-lm(mpg~wt, data=mtcars)  # dist, speed 
 
-> plot(mtcars$wt, mtcars$mpg) # ¿˙ºˆ¡ÿ Ω√∞¢»≠ «‘ºˆ   
+> plot(mtcars$wt, mtcars$mpg) # Ï†ÄÏàòÏ§Ä ÏãúÍ∞ÅÌôî Ìï®Ïàò   
 
-## √ﬂººº±
+## Ï∂îÏÑ∏ÏÑ†
 
-> abline(h=20) # Y√‡ ¡¢º±
-> abline(h=30) # Y√‡ ¡¢º±
-
-
-> abline(v=3, col="blue") # x√‡ ¡¢º±
+> abline(h=20) # YÏ∂ï Ï†ëÏÑ†
+> abline(h=30) # YÏ∂ï Ï†ëÏÑ†
 
 
-> abline(z, lty=2, lwd=2, col="green") # lty = º± ∏æÁ, lwd = º± ±Ω±‚, col = º± ªˆ
+> abline(v=3, col="blue") # xÏ∂ï Ï†ëÏÑ†
+
+
+> abline(z, lty=2, lwd=2, col="green") # lty = ÏÑ† Î™®Ïñë, lwd = ÏÑ† ÍµµÍ∏∞, col = ÏÑ† ÏÉâ
 > abline(z, lty=3, lwd=2, col="red")
 
 ```
 
-#### ¿˙ºˆ¡ÿ Ω√∞¢»≠ «‘ºˆ Functions
+#### Ï†ÄÏàòÏ§Ä ÏãúÍ∞ÅÌôî Ìï®Ïàò Functions
 
-grid(nx,ny) : «ˆ¿Á plotø° x√‡∞˙ y√‡¿ª ≥™¥©¥¬ ∞›¿⁄∏¶ ±◊∏≤
+grid(nx,ny) : ÌòÑÏû¨ plotÏóê xÏ∂ïÍ≥º yÏ∂ïÏùÑ ÎÇòÎàÑÎäî Í≤©ÏûêÎ•º Í∑∏Î¶º
 
-axis(side n,) : plot¿« √‡ ¡§∫∏∏¶ ¥ı √ﬂ∞°«‘, 1¿∫ «œ¥‹ x√‡, 2¥¬ ¡¬√¯ y√¯, 3¿∫ ªÛ¥‹ x√‡, 4¥¬ øÏ√¯ y√‡
+axis(side n,) : plotÏùò Ï∂ï Ï†ïÎ≥¥Î•º Îçî Ï∂îÍ∞ÄÌï®, 1ÏùÄ ÌïòÎã® xÏ∂ï, 2Îäî Ï¢åÏ∏° yÏ∏°, 3ÏùÄ ÏÉÅÎã® xÏ∂ï, 4Îäî Ïö∞Ï∏° yÏ∂ï
 
-box(which=,) :«ˆ¿Á plot¿Ã≥™ figure ∂«¥¬ plot πŸ±˘¬ ø° √ﬂ∞°¿˚¿Œ box∏¶ ±◊∏≤. ø©∑Ø graphic parameter ¿Œºˆ∏¶ ¿˚øÎ ∞°¥…«‘. which¥¬ °∞plot°±,°∞figure°±,°∞inner°±,°∞outer°±¿« ¿Œºˆ∏¶ ¡Ÿ ºˆ ¿÷¿Ω
+box(which=,) :ÌòÑÏû¨ plotÏù¥ÎÇò figure ÎòêÎäî plot Î∞îÍπ•Ï™ΩÏóê Ï∂îÍ∞ÄÏ†ÅÏù∏ boxÎ•º Í∑∏Î¶º. Ïó¨Îü¨ graphic parameter Ïù∏ÏàòÎ•º Ï†ÅÏö© Í∞ÄÎä•Ìï®. whichÎäî ‚Äúplot‚Äù,‚Äúfigure‚Äù,‚Äúinner‚Äù,‚Äúouter‚ÄùÏùò Ïù∏ÏàòÎ•º Ï§Ñ Ïàò ÏûàÏùå
 
-legend(x√‡ ¿ßƒ°, y√‡ ¿ßƒ°, ≥ªøÎ,) : «ˆ¿Á plotø° π¸∑ ∏¶ √ﬂ∞°. (x,y)¿« ¿ßƒ°ø° π¸∑ ∏¶ ª˝º∫
+legend(xÏ∂ï ÏúÑÏπò, yÏ∂ï ÏúÑÏπò, ÎÇ¥Ïö©,) : ÌòÑÏû¨ plotÏóê Î≤îÎ°ÄÎ•º Ï∂îÍ∞Ä. (x,y)Ïùò ÏúÑÏπòÏóê Î≤îÎ°ÄÎ•º ÏÉùÏÑ±
 
-arrow(x,y) : »≠ªÏ«•∏¶ √ﬂ∞°.
+arrow(x,y) : ÌôîÏÇ¥ÌëúÎ•º Ï∂îÍ∞Ä.
 
-lines(x,y)/points(x,y) : º±, ¡°µÈ¿ª √ﬂ∞°. points «—¡§¿∏∑Œ type¿ª °∞p°±,°∞b°±,°∞l°± µÓ¿ª ¡Ÿ ºˆ ¿÷¿Ω
+lines(x,y)/points(x,y) : ÏÑ†, Ï†êÎì§ÏùÑ Ï∂îÍ∞Ä. points ÌïúÏ†ïÏúºÎ°ú typeÏùÑ ‚Äúp‚Äù,‚Äúb‚Äù,‚Äúl‚Äù Îì±ÏùÑ Ï§Ñ Ïàò ÏûàÏùå
 
-abline(a,b) or abline(h= or v=) : «ˆ¿Á plotø° º±¿ª √ﬂ∞°«‘. linesøÕ ¥Ÿ∏•¡°¿∫ ≥—∞‹¡÷¥¬ ∞™¿Ã a=y¿˝∆Ì, b=±‚øÔ±‚ ¿”. h(horizontal) ∞™¿ª ¡÷∏È x√‡∞˙ ∆Ú«‡«œ¥¬ º±¿ª, v(vertical) ∞™¿ª ¡÷∏È y√‡∞˙ ∆Ú«‡«œ¥¬ º±¿ª ±◊∏≤
+abline(a,b) or abline(h= or v=) : ÌòÑÏû¨ plotÏóê ÏÑ†ÏùÑ Ï∂îÍ∞ÄÌï®. linesÏôÄ Îã§Î•∏Ï†êÏùÄ ÎÑòÍ≤®Ï£ºÎäî Í∞íÏù¥ a=yÏ†àÌé∏, b=Í∏∞Ïö∏Í∏∞ ÏûÑ. h(horizontal) Í∞íÏùÑ Ï£ºÎ©¥ xÏ∂ïÍ≥º ÌèâÌñâÌïòÎäî ÏÑ†ÏùÑ, v(vertical) Í∞íÏùÑ Ï£ºÎ©¥ yÏ∂ïÍ≥º ÌèâÌñâÌïòÎäî ÏÑ†ÏùÑ Í∑∏Î¶º
 
-segments(x0,y0,x1,x2) : (x0,y0)¿Œ ¡°∞˙ (x1,y1)¿Œ ¡°¿ª ¿’¥¬ º±¿ª ±◊∏≤
+segments(x0,y0,x1,x2) : (x0,y0)Ïù∏ Ï†êÍ≥º (x1,y1)Ïù∏ Ï†êÏùÑ ÏûáÎäî ÏÑ†ÏùÑ Í∑∏Î¶º
 
-polygon(x,y) : ∫§≈Õ xøÕ y∑Œ ¡§¿«µ» ∆˙∏Æ∞Ô¿ª ±◊∏≤
+polygon(x,y) : Î≤°ÌÑ∞ xÏôÄ yÎ°ú Ï†ïÏùòÎêú Ìè¥Î¶¨Í≥§ÏùÑ Í∑∏Î¶º
 
-text(x,y,°∞note°±) : x,y¿« ¿ßƒ°ø° °∞note°±∂Û¥¬ ±€¿ª æ∏
+text(x,y,‚Äúnote‚Äù) : x,yÏùò ÏúÑÏπòÏóê ‚Äúnote‚ÄùÎùºÎäî Í∏ÄÏùÑ ÏîÄ
 
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMTgw/MDAxNDk1NTkwMDY1NDYw._XLtwXgm9f0Hu5wfBd6HqNR1k3nCzz216UgtXrBVL2Eg.Ogi6HryTeDHnXAtIG9_r9puw3yhFptUKNvxRUzgalsYg.PNG.jp302119/plot2.png)
@@ -187,7 +187,7 @@ text(x,y,°∞note°±) : x,y¿« ¿ßƒ°ø° °∞note°±∂Û¥¬ ±€¿ª æ∏
 
 > text(8, 9, "Test", srt =45)
 
-> legend(12, 5, c("h=8", "v=5", "segments", "arrows"), cex=0.9, col=c("red", "blue")) # π¸∑  ª˝º∫
+> legend(12, 5, c("h=8", "v=5", "segments", "arrows"), cex=0.9, col=c("red", "blue")) # Î≤îÎ°Ä ÏÉùÏÑ±
 
 ```
 
@@ -238,7 +238,7 @@ text(x,y,°∞note°±) : x,y¿« ¿ßƒ°ø° °∞note°±∂Û¥¬ ±€¿ª æ∏
 
 > y<-5:1
 
-> plot(x,y,xlab="X√‡",ylab="Y√‡",main="test Plot")
+> plot(x,y,xlab="XÏ∂ï",ylab="YÏ∂ï",main="test Plot")
 
 ```
 
@@ -247,13 +247,13 @@ text(x,y,°∞note°±) : x,y¿« ¿ßƒ°ø° °∞note°±∂Û¥¬ ±€¿ª æ∏
 ```sh
 > v1 <- c(100,130,120,160,150)
 
-# line chart ±◊∏Æ±‚
+# line chart Í∑∏Î¶¨Í∏∞
 > plot(v1,type="o",col="red",ylim=c(0,200),axes=F,ann=F)
 
-# x√‡ ±◊∏Æ±‚
+# xÏ∂ï Í∑∏Î¶¨Í∏∞
 > axis(1,at=1:5,lab=c("Mon","TUE","WED","WHU","FRI"))
 
-# Y√‡ ±◊∏Æ±‚
+# YÏ∂ï Í∑∏Î¶¨Í∏∞
 > axis(2,ylim=c(0,200))
 
 # title
@@ -300,7 +300,7 @@ text(x,y,°∞note°±) : x,y¿« ¿ßƒ°ø° °∞note°±∂Û¥¬ ±€¿ª æ∏
 
 > plot(v1,type="o",col="red")
 
-#±◊∑°«¡ ¡ﬂ√∏ ∏Ì∑…æÓ, default¥¬ F
+#Í∑∏ÎûòÌîÑ Ï§ëÏ≤© Î™ÖÎ†πÏñ¥, defaultÎäî F
 > par(new=T)
 
 > plot(v2,type="l",col="blue")
@@ -337,7 +337,7 @@ text(x,y,°∞note°±) : x,y¿« ¿ßƒ°ø° °∞note°±∂Û¥¬ ±€¿ª æ∏
 
 #### barplot
 
-- ∏∑¥Î ±◊∑°«¡
+- ÎßâÎåÄ Í∑∏ÎûòÌîÑ
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMTMz/MDAxNDk1NTkxNzM4Njky.crxR6i3UHd_FbzXhIea9aYG_X0DNYYeg9Z-ThYAqvVog.c7dVdVisluBkE0lA4_d2L4-wDp6n8baYkTak3Koo01gg.PNG.jp302119/a.png)
 
@@ -417,7 +417,7 @@ text(x,y,°∞note°±) : x,y¿« ¿ßƒ°ø° °∞note°±∂Û¥¬ ±€¿ª æ∏
 
 > barplot(as.matrix(qty),main="Fruit's Sales QTY", beside=T,col=rainbow(nrow(qty)),ylim=c(0,400))
 
-#π¸∑ 
+#Î≤îÎ°Ä
 > legend(14,400,c("MON","TUE","WED","THU","FRI"),cex=0.8, fill=rainbow(nrow(qty)))
 
 ```
@@ -429,7 +429,401 @@ text(x,y,°∞note°±) : x,y¿« ¿ßƒ°ø° °∞note°±∂Û¥¬ ±€¿ª æ∏
 	col=rainbow(length(qty)),space=0.1,cex.axis=0.8,las=1,
         names.arg=c("MON","TUE","WED","THU","FRI"),cex=0.8)
 
-#π¸∑ 
+#Î≤îÎ°Ä
 > legend(0.2,800,names(qty),cex=0.7,fill=rainbow(length(qty)) )
+
+```
+
+#### boxplot
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMyAg/MDAxNDk2MTg5NzkyMDU5.
+
+JmQuc9IOQb4e1-
+
+P_DWv_Njmg0aQnpeK_YtkSEN47HJwg.aYdqa2otWHg71WlTVQTkqQZsCsNHYIOHFbJ
+
+wocFjtJYg.JPEG.jp302119/11.jpg)
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMjc3/MDAxNDk2MTg5NjIyMDc2.
+
+UW_1rsZxFr2dh0YwZhLR8dTPe1Ns3cUojdRjdE923D0g.im_mgEV0jHetCjYsHgz1n
+
+wmCPcn3776Pd8gy-QBOX2wg.PNG.jp302119/1.png)
+
+```sh
+
+> v1 <- c(sample(1:10, 200, replace=T), 20)
+
+boxplot(v1)
+
+```
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMjY5/MDAxNDk2MTg5NjIyNDE0.
+
+cPuWjZHvlTgUoSNAUEJUnQK5hZbCb5qkOcaZn7Dh2Kgg.bQTv3xEoHn0gttPCgv61B
+
+kTc8RKV8YNowDCfjw3bDu0g.PNG.jp302119/2.png)
+
+```sh
+
+> v1 <- c(sample(1:10, 200, replace=T), 20)
+
+> v2 <- sample(1:20, 200, replace=T)
+
+> boxplot(v1, v2)
+
+```
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMTQ5/MDAxNDk2MTg5NjIyNTky.
+
+UZE7MHWx5l1mUbCPCZmSGfoEd1S4a7Tz0T5ZErKLw8Ug.7YMxR7Cod05vdQLgUAT3O
+
+3oqisgur0b5OqBCRZJI8Y0g.PNG.jp302119/3.png)
+
+```sh
+
+> v1 <- c(sample(1:10, 200, replace=T), 20)
+
+> v2 <- sample(1:20, 200, replace=T)
+
+> v3 <- c(sample(10:20, 200, replace=T),-10)
+
+> lst <- list(v1, v2, v3)
+
+> boxplot(lst)
+
+```
+
+- Îã§Î≥ÄÎüâ, Ïãù ÏÇ¨Ïö©
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMjUg/MDAxNDk2MTg5NjIyNzg2.
+
+x0ouo_Z-jmCPp937ZTGpoK0WXMrJSh9jQxIMjqR_3tIg.dt6FwoQSu8wDCHi-
+
+UsKwwDDGje2BskHudcTUNIc8iD8g.PNG.jp302119/4.png)
+
+```sh
+
+> head(ToothGrowth)
+
+#    len supp dose
+# 1  4.2   VC  0.5
+# 2 11.5   VC  0.5
+# 3  7.3   VC  0.5
+# 4  5.8   VC  0.5
+# 5  6.4   VC  0.5
+# 6 10.0   VC  0.5
+
+> boxplot(len~dose, data=ToothGrowth)
+
+```
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMjYw/MDAxNDk2MTg5NjIzMDEx.
+
+Rk8ARw889XRSxS9BE6428TNg4lTUCIBbdH9Vdu6xKMQg.Sf25fsCIwiMQVfH2nFLxr
+
+S5e-7b0G6MzWrRqz2C87-og.PNG.jp302119/5.png)
+
+```sh
+
+> head(ToothGrowth)
+
+#    len supp dose
+# 1  4.2   VC  0.5
+# 2 11.5   VC  0.5
+# 3  7.3   VC  0.5
+# 4  5.8   VC  0.5
+# 5  6.4   VC  0.5
+# 6 10.0   VC  0.5
+
+> boxplot(len~dose+supp, data=ToothGrowth)
+
+```
+
+- subset ÏÇ¨Ïö©
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMTg5/MDAxNDk2MTg5NjIzMjk2.
+
+EvNQt5SVnJgIUTZ-
+
+MMTr3UHfTX5hOHCGGpsC3H4tp3Ig.0R9bKOmE7AeijvHg_2E3XLcGXJ50CWRt1pept
+
+mTGGc4g.PNG.jp302119/6.png)
+
+```sh
+
+> head(ToothGrowth)
+
+#    len supp dose
+# 1  4.2   VC  0.5
+# 2 11.5   VC  0.5
+# 3  7.3   VC  0.5
+# 4  5.8   VC  0.5
+# 5  6.4   VC  0.5
+# 6 10.0   VC  0.5
+
+> boxplot(len~supp=="VC", data=ToothGrowth) # suppÏù¥ VC==TÏôÄ VC==F 
+
+ÎëòÎ°ú ÎÇòÎààÎã§.
+
+```
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMjM3/MDAxNDk2MTg5NjIzNTM1.
+
+zB-oixf9DXM5RVyfYTZqt5mLbpwlnnDRYqWfU-
+
+3SppIg.UNSJ0Z8TWLvYGbTZhKtEn8QA46nraWJoek9a51WDuRUg.PNG.jp302119/7
+
+.png)
+
+```sh
+
+> head(ToothGrowth)
+
+#    len supp dose
+# 1  4.2   VC  0.5
+# 2 11.5   VC  0.5
+# 3  7.3   VC  0.5
+# 4  5.8   VC  0.5
+# 5  6.4   VC  0.5
+# 6 10.0   VC  0.5
+
+> boxplot(len~dose, data=ToothGrowth, subset=supp=="VC") # subset
+
+ÏùÑ ÌïòÎ©¥ supp==VCÏù∏ Ïï†Îì§Îßå ÎåÄÏÉÅÏù¥ ÎêúÎã§.
+
+```
+
+- border, col ÏÇ¨Ïö©
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMjI4/MDAxNDk2MTkwNDY5Mjg0.
+
+QnBqBU8cEjtqKxT5NK1CvJDCVR48wH1fdkr4sDVlpDAg.XQDdhxxm4QIcR7wih8wKY
+
+YHpP-Y5FWmoFsx89ywLSkEg.PNG.jp302119/15.png)
+
+```sh
+
+> x <- 1:5
+
+> boxplot(x, border="magenta", col=c("lightblue"))
+
+```
+
+#### Histogram
+
+- ÌûàÏä§ÌÜ†Í∑∏Îû®Ïù¥ÎûÄ ÌäπÏ†ï Îç∞Ïù¥ÌÑ∞Ïùò ÎπàÎèÑÏàòÎ•º ÎßâÎåÄ Î™®ÏñëÏúºÎ°ú ÌëúÌòÑÌïú Í≤É(ÎèÑÏàòÎ∂Ñ
+
+Ìè¨Ìëú)
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMjY1/MDAxNDk2MTkxMDM4Mzk2.
+
+uL43j26oaHwaU4WJApX5IkN2_zm-
+
+xIAq073pioVQw9wg.IcoV_EaulxMFXlw_dPXX7QQaFM0UuPxCmw7c0zWrhDQg.PNG.
+
+jp302119/44.png)
+
+```sh
+
+> height <- c(182,175,167,172,163,178,181,166,159,155)
+
+> hist(height,ylim=c(0,5),labels = T,main="histogram of height") 
+
+# labels = T : Î≤îÏ£ºÏùò Í∞ØÏàòÎ•º ÎÑ£ÎäîÎã§.
+# ylim = C(0,5) : FrequencyÎ•º 0Î∂ÄÌÑ∞ 5ÍπåÏßÄÎ°ú ÏÑ§Ï†ï
+
+```
+
+#### Pie Chart
+
+- ÌååÏù¥ Ï∞®Ìä∏Îäî Í∞Å Î≤îÏ£ºÍ∞Ä Îç∞Ïù¥ÌÑ∞ÏóêÏÑú Ï∞®ÏßÄÌïòÎäî ÎπÑÏú®ÏùÑ ÎÇòÌÉÄÎÇ¥Îäî Îç∞ ÏÇ¨Ïö©Ìï† 
+
+Ïàò ÏûàÎäî Í∑∏ÎûòÌîÑ
+
+- ÌååÏù¥Îäî Ï°∞Í∞ÅÏúºÎ°ú ÎÇòÎâòÍ≥†, Í∞Å Ï°∞Í∞ÅÏùÄ Îç∞Ïù¥ÌÑ∞Ïùò Î≤îÏ£ºÎ•º ÎÇòÌÉÄÎÇ∏Îã§
+
+- Ï°∞Í∞ÅÏùò ÌÅ¨Í∏∞Î•º ÎπÑÍµê Î∞è ÎåÄÏ°∞ÌïòÏó¨ Í∞Å Î≤îÏ£ºÏùò ÏÉÅÎåÄÏ†ÅÏù∏ ÌÅ¨Í∏∞Î•º ÌèâÍ∞Ä
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMTA4/MDAxNDk2MTkxMTk5MjEz.
+
+ma5q-
+
+IVkkDo8F3dZ7Xa5_4LKOAp3vmitKqCeC0nRLsgg.Bm2dwfbUasSi5aiugF_RsS3DOL
+
+Tjh2Lo330tU6JwYPkg.PNG.jp302119/16.png)
+
+```sh
+
+> p1 <- c(10,20,30,40)
+
+> pie(p1,radius=1)
+
+```
+
+- ÏãúÏûë Í∞ÅÎèÑÎ•º 90ÎèÑÎ°ú ÏßÄÏ†ï
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMTE2/MDAxNDk2MTkxMTk5Mzg0.
+
+0dTL27D0A4ws9oN7nsXVAZDD2GAD3JXlN2Ucm007uwIg.ra30TFUXs-
+
+_6VoUzIePHYmnWqL_4dKHCpuJ3jBTUcUcg.PNG.jp302119/17.png)
+
+```sh
+
+> pie(p1,radius=1,init.angle=90)
+
+```
+
+- ÏÉâÍπîÍ≥º labelÎ™ÖÏùÑ ÏßÄÏ†ï
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfNDgg/MDAxNDk2MTkxMTk5NTYz.
+
+-I2R5M3Loi2B2Nwb26JPERvKkrsUZ1GX_sxHi_es44Mg.GU0wGLbH-
+
+IU64jehTC6Z1HVvzLjK_d8M6JeMu19AfOog.PNG.jp302119/18.png)
+
+```sh
+
+> pie(p1,radius=1,init.angle=90,col=rainbow(length(p1)), label=c
+
+("Week 1" ,"Week 2" , "Week 3" ,"Week 4"))
+
+```
+
+- ÏàòÏπò Í∞íÏùÑ Ìï®Íªò Ï∂úÎ†•
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMjkg/MDAxNDk2MTkxMTk5NzM4.
+
+KPkwMc8AHiAlP9Om1KKdmZNs19q7RNHcrqUMg3Qp-
+
+Hcg.WMaytZ2YDs1ylz_kaYak_OqF45UZAJerplkR_jSHiB8g.PNG.jp302119/19.p
+
+ng)
+
+```sh
+
+> pct <- round(p1/sum(p1) * 100,1)
+
+> lab <- paste(pct," %")
+
+> pie(p1,radius=1,init.angle=90,col=rainbow(length(p1)), 
+
+label=lab)
+
+> legend(1,1.1,c("Week 1","Week 2","Week 3","Week 4"), 
+
+cex=0.5,fill=rainbow(length(p1)))
+
+```
+
+- Î≤îÎ°ÄÎ•º ÏÉùÎûµÌïòÍ≥† Í∑∏ÎûòÌîÑÏóê Î∞îÎ°ú Ï∂úÎ†•
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfMTg3/MDAxNDk2MTkxMTk5OTQx.
+
+Bwec8UNrw7v15SG2_G663W7M1-
+
+sAVebxOqxSyYMimSkg.tWalnyR0UnMq7Pw6ZiEqktmuYszVAuiBAU3s29xWv30g.PN
+
+G.jp302119/20.png)
+
+```sh
+
+> pct <- round(p1/sum(p1) * 100,1)
+
+> lab1 <- c("Week 1","Week 2","Week 3","Week 4")
+
+> lab2 <- paste(lab1,"\n",pct," %")
+
+> pie(p1,radius=1,init.angle=90,col=rainbow(length
+
+(p1)),label=lab2)
+
+```
+
+#### pairs ÏÇ∞Ï†êÎèÑ ÌñâÎ†¨
+
+- Í∞Å Î≥ÄÏàòÎ≥ÑÎ°ú ÏÇ∞Ï†êÎèÑÎ•º Í∑∏Î†§Î≥¥Îäî ÏãúÍ∞ÅÌôî Î∞©Î≤ï
+
+![Markdown Here logo]
+
+(http://blogfiles.naver.net/MjAxNzA1MzFfODAg/MDAxNDk2MTkyMTMwMDQ2.
+
+8QzvYKnWLJ6VXacGEmI-
+
+MQ2aoAjTkebhssGjVB6TKGog.DHaG_mTCnP8hZjjqUyYeRx6-
+
+CcwHShrpo9I2Fmnt2lgg.PNG.jp302119/22.png)
+
+```sh
+
+> head(iris)
+
+#   Sepal.Length Sepal.Width
+# 1          5.1         3.5
+# 2          4.9         3.0
+# 3          4.7         3.2
+# 4          4.6         3.1
+# 5          5.0         3.6
+# 6          5.4         3.9
+#   Petal.Length Petal.Width Species
+# 1          1.4         0.2  setosa
+# 2          1.4         0.2  setosa
+# 3          1.3         0.2  setosa
+# 4          1.5         0.2  setosa
+# 5          1.4         0.2  setosa
+# 6          1.7         0.4  setosa
+
+> unclass(iris$Species) # SpeciesÏùò Í∞íÏùÑ Ïà´ÏûêÎ°ú ÌëúÌòÑ
+
+#   [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+#  [17] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+#  [33] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+#  [49] 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+#  [65] 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+#  [81] 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+#  [97] 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3
+# [113] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+# [129] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+# [145] 3 3 3 3 3 3
+# attr(,"levels")
+# [1] "setosa"     "versicolor"
+# [3] "virginica" 
+
+> pairs(iris[1:4], main = "Iris", pch=21, bg=c("red", "green", 
+
+"blue")[unclass(iris$Species)]) # SpeciesÍ∞Ä 1(setosa)Ïù¥Î©¥ red, 2
+
+(versicolor)Î©¥ green, 3(virginica)Ïù¥Î©¥ blue
 
 ```
