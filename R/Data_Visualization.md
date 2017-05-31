@@ -436,23 +436,9 @@ text(x,y,“note”) : x,y의 위치에 “note”라는 글을 씀
 
 #### boxplot
 
-![Markdown Here logo]
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMyAg/MDAxNDk2MTg5NzkyMDU5.JmQuc9IOQb4e1P_DWv_Njmg0aQnpeK_YtkSEN47HJwg.aYdqa2otWHg71WlTVQTkqQZsCsNHYIOHFbJwocFjtJYg.JPEG.jp302119/11.jpg)
 
-(http://blogfiles.naver.net/MjAxNzA1MzFfMyAg/MDAxNDk2MTg5NzkyMDU5.
-
-JmQuc9IOQb4e1-
-
-P_DWv_Njmg0aQnpeK_YtkSEN47HJwg.aYdqa2otWHg71WlTVQTkqQZsCsNHYIOHFbJ
-
-wocFjtJYg.JPEG.jp302119/11.jpg)
-
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMjc3/MDAxNDk2MTg5NjIyMDc2.
-
-UW_1rsZxFr2dh0YwZhLR8dTPe1Ns3cUojdRjdE923D0g.im_mgEV0jHetCjYsHgz1n
-
-wmCPcn3776Pd8gy-QBOX2wg.PNG.jp302119/1.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjc3/MDAxNDk2MTg5NjIyMDc2.UW_1rsZxFr2dh0YwZhLR8dTPe1Ns3cUojdRjdE923D0g.im_mgEV0jHetCjYsHgz1nwmCPcn3776Pd8gy-QBOX2wg.PNG.jp302119/1.png)
 
 ```sh
 
@@ -462,13 +448,7 @@ boxplot(v1)
 
 ```
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMjY5/MDAxNDk2MTg5NjIyNDE0.
-
-cPuWjZHvlTgUoSNAUEJUnQK5hZbCb5qkOcaZn7Dh2Kgg.bQTv3xEoHn0gttPCgv61B
-
-kTc8RKV8YNowDCfjw3bDu0g.PNG.jp302119/2.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjY5/MDAxNDk2MTg5NjIyNDE0.cPuWjZHvlTgUoSNAUEJUnQK5hZbCb5qkOcaZn7Dh2Kgg.bQTv3xEoHn0gttPCgv61BkTc8RKV8YNowDCfjw3bDu0g.PNG.jp302119/2.png)
 
 ```sh
 
@@ -480,13 +460,7 @@ kTc8RKV8YNowDCfjw3bDu0g.PNG.jp302119/2.png)
 
 ```
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMTQ5/MDAxNDk2MTg5NjIyNTky.
-
-UZE7MHWx5l1mUbCPCZmSGfoEd1S4a7Tz0T5ZErKLw8Ug.7YMxR7Cod05vdQLgUAT3O
-
-3oqisgur0b5OqBCRZJI8Y0g.PNG.jp302119/3.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMTQ5/MDAxNDk2MTg5NjIyNTky.UZE7MHWx5l1mUbCPCZmSGfoEd1S4a7Tz0T5ZErKLw8Ug.7YMxR7Cod05vdQLgUAT3O3oqisgur0b5OqBCRZJI8Y0g.PNG.jp302119/3.png)
 
 ```sh
 
@@ -504,13 +478,7 @@ UZE7MHWx5l1mUbCPCZmSGfoEd1S4a7Tz0T5ZErKLw8Ug.7YMxR7Cod05vdQLgUAT3O
 
 - 다변량, 식 사용
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMjUg/MDAxNDk2MTg5NjIyNzg2.
-
-x0ouo_Z-jmCPp937ZTGpoK0WXMrJSh9jQxIMjqR_3tIg.dt6FwoQSu8wDCHi-
-
-UsKwwDDGje2BskHudcTUNIc8iD8g.PNG.jp302119/4.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjUg/MDAxNDk2MTg5NjIyNzg2.x0ouo_Z-jmCPp937ZTGpoK0WXMrJSh9jQxIMjqR_3tIg.dt6FwoQSu8wDCHi-UsKwwDDGje2BskHudcTUNIc8iD8g.PNG.jp302119/4.png)
 
 ```sh
 
@@ -528,13 +496,7 @@ UsKwwDDGje2BskHudcTUNIc8iD8g.PNG.jp302119/4.png)
 
 ```
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMjYw/MDAxNDk2MTg5NjIzMDEx.
-
-Rk8ARw889XRSxS9BE6428TNg4lTUCIBbdH9Vdu6xKMQg.Sf25fsCIwiMQVfH2nFLxr
-
-S5e-7b0G6MzWrRqz2C87-og.PNG.jp302119/5.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjYw/MDAxNDk2MTg5NjIzMDEx.Rk8ARw889XRSxS9BE6428TNg4lTUCIBbdH9Vdu6xKMQg.Sf25fsCIwiMQVfH2nFLxrS5e-7b0G6MzWrRqz2C87-og.PNG.jp302119/5.png)
 
 ```sh
 
@@ -554,15 +516,7 @@ S5e-7b0G6MzWrRqz2C87-og.PNG.jp302119/5.png)
 
 - subset 사용
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMTg5/MDAxNDk2MTg5NjIzMjk2.
-
-EvNQt5SVnJgIUTZ-
-
-MMTr3UHfTX5hOHCGGpsC3H4tp3Ig.0R9bKOmE7AeijvHg_2E3XLcGXJ50CWRt1pept
-
-mTGGc4g.PNG.jp302119/6.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMTg5/MDAxNDk2MTg5NjIzMjk2.EvNQt5SVnJgIUTZMMTr3UHfTX5hOHCGGpsC3H4tp3Ig.0R9bKOmE7AeijvHg_2E3XLcGXJ50CWRt1peptmTGGc4g.PNG.jp302119/6.png)
 
 ```sh
 
@@ -582,15 +536,7 @@ mTGGc4g.PNG.jp302119/6.png)
 
 ```
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMjM3/MDAxNDk2MTg5NjIzNTM1.
-
-zB-oixf9DXM5RVyfYTZqt5mLbpwlnnDRYqWfU-
-
-3SppIg.UNSJ0Z8TWLvYGbTZhKtEn8QA46nraWJoek9a51WDuRUg.PNG.jp302119/7
-
-.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjM3/MDAxNDk2MTg5NjIzNTM1.zB-oixf9DXM5RVyfYTZqt5mLbpwlnnDRYqWfU-3SppIg.UNSJ0Z8TWLvYGbTZhKtEn8QA46nraWJoek9a51WDuRUg.PNG.jp302119/7.png)
 
 ```sh
 
@@ -612,13 +558,7 @@ zB-oixf9DXM5RVyfYTZqt5mLbpwlnnDRYqWfU-
 
 - border, col 사용
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMjI4/MDAxNDk2MTkwNDY5Mjg0.
-
-QnBqBU8cEjtqKxT5NK1CvJDCVR48wH1fdkr4sDVlpDAg.XQDdhxxm4QIcR7wih8wKY
-
-YHpP-Y5FWmoFsx89ywLSkEg.PNG.jp302119/15.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjI4/MDAxNDk2MTkwNDY5Mjg0.QnBqBU8cEjtqKxT5NK1CvJDCVR48wH1fdkr4sDVlpDAg.XQDdhxxm4QIcR7wih8wKYYHpP-Y5FWmoFsx89ywLSkEg.PNG.jp302119/15.png)
 
 ```sh
 
@@ -634,15 +574,7 @@ YHpP-Y5FWmoFsx89ywLSkEg.PNG.jp302119/15.png)
 
 포표)
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMjY1/MDAxNDk2MTkxMDM4Mzk2.
-
-uL43j26oaHwaU4WJApX5IkN2_zm-
-
-xIAq073pioVQw9wg.IcoV_EaulxMFXlw_dPXX7QQaFM0UuPxCmw7c0zWrhDQg.PNG.
-
-jp302119/44.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjY1/MDAxNDk2MTkxMDM4Mzk2.uL43j26oaHwaU4WJApX5IkN2_zm-xIAq073pioVQw9wg.IcoV_EaulxMFXlw_dPXX7QQaFM0UuPxCmw7c0zWrhDQg.PNG.jp302119/44.png)
 
 ```sh
 
@@ -665,15 +597,7 @@ jp302119/44.png)
 
 - 조각의 크기를 비교 및 대조하여 각 범주의 상대적인 크기를 평가
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMTA4/MDAxNDk2MTkxMTk5MjEz.
-
-ma5q-
-
-IVkkDo8F3dZ7Xa5_4LKOAp3vmitKqCeC0nRLsgg.Bm2dwfbUasSi5aiugF_RsS3DOL
-
-Tjh2Lo330tU6JwYPkg.PNG.jp302119/16.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMTA4/MDAxNDk2MTkxMTk5MjEz.ma5q-IVkkDo8F3dZ7Xa5_4LKOAp3vmitKqCeC0nRLsgg.Bm2dwfbUasSi5aiugF_RsS3DOLTjh2Lo330tU6JwYPkg.PNG.jp302119/16.png)
 
 ```sh
 
@@ -685,13 +609,7 @@ Tjh2Lo330tU6JwYPkg.PNG.jp302119/16.png)
 
 - 시작 각도를 90도로 지정
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMTE2/MDAxNDk2MTkxMTk5Mzg0.
-
-0dTL27D0A4ws9oN7nsXVAZDD2GAD3JXlN2Ucm007uwIg.ra30TFUXs-
-
-_6VoUzIePHYmnWqL_4dKHCpuJ3jBTUcUcg.PNG.jp302119/17.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMTE2/MDAxNDk2MTkxMTk5Mzg0.0dTL27D0A4ws9oN7nsXVAZDD2GAD3JXlN2Ucm007uwIg.ra30TFUXs-_6VoUzIePHYmnWqL_4dKHCpuJ3jBTUcUcg.PNG.jp302119/17.png)
 
 ```sh
 
@@ -701,13 +619,7 @@ _6VoUzIePHYmnWqL_4dKHCpuJ3jBTUcUcg.PNG.jp302119/17.png)
 
 - 색깔과 label명을 지정
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfNDgg/MDAxNDk2MTkxMTk5NTYz.
-
--I2R5M3Loi2B2Nwb26JPERvKkrsUZ1GX_sxHi_es44Mg.GU0wGLbH-
-
-IU64jehTC6Z1HVvzLjK_d8M6JeMu19AfOog.PNG.jp302119/18.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfNDgg/MDAxNDk2MTkxMTk5NTYz.-I2R5M3Loi2B2Nwb26JPERvKkrsUZ1GX_sxHi_es44Mg.GU0wGLbH-IU64jehTC6Z1HVvzLjK_d8M6JeMu19AfOog.PNG.jp302119/18.png)
 
 ```sh
 
@@ -719,15 +631,7 @@ IU64jehTC6Z1HVvzLjK_d8M6JeMu19AfOog.PNG.jp302119/18.png)
 
 - 수치 값을 함께 출력
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMjkg/MDAxNDk2MTkxMTk5NzM4.
-
-KPkwMc8AHiAlP9Om1KKdmZNs19q7RNHcrqUMg3Qp-
-
-Hcg.WMaytZ2YDs1ylz_kaYak_OqF45UZAJerplkR_jSHiB8g.PNG.jp302119/19.p
-
-ng)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjkg/MDAxNDk2MTkxMTk5NzM4.KPkwMc8AHiAlP9Om1KKdmZNs19q7RNHcrqUMg3Qp-Hcg.WMaytZ2YDs1ylz_kaYak_OqF45UZAJerplkR_jSHiB8g.PNG.jp302119/19.png)
 
 ```sh
 
@@ -747,15 +651,7 @@ cex=0.5,fill=rainbow(length(p1)))
 
 - 범례를 생략하고 그래프에 바로 출력
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfMTg3/MDAxNDk2MTkxMTk5OTQx.
-
-Bwec8UNrw7v15SG2_G663W7M1-
-
-sAVebxOqxSyYMimSkg.tWalnyR0UnMq7Pw6ZiEqktmuYszVAuiBAU3s29xWv30g.PN
-
-G.jp302119/20.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMTg3/MDAxNDk2MTkxMTk5OTQx.Bwec8UNrw7v15SG2_G663W7M1-sAVebxOqxSyYMimSkg.tWalnyR0UnMq7Pw6ZiEqktmuYszVAuiBAU3s29xWv30g.PNG.jp302119/20.png)
 
 ```sh
 
@@ -775,15 +671,7 @@ G.jp302119/20.png)
 
 - 각 변수별로 산점도를 그려보는 시각화 방법
 
-![Markdown Here logo]
-
-(http://blogfiles.naver.net/MjAxNzA1MzFfODAg/MDAxNDk2MTkyMTMwMDQ2.
-
-8QzvYKnWLJ6VXacGEmI-
-
-MQ2aoAjTkebhssGjVB6TKGog.DHaG_mTCnP8hZjjqUyYeRx6-
-
-CcwHShrpo9I2Fmnt2lgg.PNG.jp302119/22.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfODAg/MDAxNDk2MTkyMTMwMDQ2.8QzvYKnWLJ6VXacGEmI-MQ2aoAjTkebhssGjVB6TKGog.DHaG_mTCnP8hZjjqUyYeRx6-CcwHShrpo9I2Fmnt2lgg.PNG.jp302119/22.png)
 
 ```sh
 
