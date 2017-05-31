@@ -436,7 +436,7 @@ text(x,y,“note”) : x,y의 위치에 “note”라는 글을 씀
 
 #### boxplot
 
-![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMyAg/MDAxNDk2MTg5NzkyMDU5.JmQuc9IOQb4e1P_DWv_Njmg0aQnpeK_YtkSEN47HJwg.aYdqa2otWHg71WlTVQTkqQZsCsNHYIOHFbJwocFjtJYg.JPEG.jp302119/11.jpg)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMyAg/MDAxNDk2MTg5NzkyMDU5.JmQuc9IOQb4e1-P_DWv_Njmg0aQnpeK_YtkSEN47HJwg.aYdqa2otWHg71WlTVQTkqQZsCsNHYIOHFbJwocFjtJYg.JPEG.jp302119/11.jpg)
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjc3/MDAxNDk2MTg5NjIyMDc2.UW_1rsZxFr2dh0YwZhLR8dTPe1Ns3cUojdRjdE923D0g.im_mgEV0jHetCjYsHgz1nwmCPcn3776Pd8gy-QBOX2wg.PNG.jp302119/1.png)
 
