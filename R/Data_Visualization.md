@@ -99,7 +99,7 @@
 
 - 산점도 행렬 : 여러 개의 변수 쌍에 대한 산점도
 
-![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1Mj RfNDYg/MDAxNDk1NTg2OTk2NDU1.5kzx33dZRFqrWJIz9IQexbv5-swM697CGdEPxBQpj20g.tBLk9VmlTuxfA3HJTbQGW9Sdm0Ja-7X-QulL07Nj4j0g.PNG.jp302119/%EC%82%B0%EC%A0%90%EB%8F%84_%ED%96%89%EB%A0%AC.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfNDYg/MDAxNDk1NTg2OTk2NDU1.5kzx33dZRFqrWJIz9IQexbv5-swM697CGdEPxBQpj20g.tBLk9VmlTuxfA3HJTbQGW9Sdm0Ja-7X-QulL07Nj4j0g.PNG.jp302119/%EC%82%B0%EC%A0%90%EB%8F%84_%ED%96%89%EB%A0%AC.png)
 
 - 모자이크 그림 : 이산형 데이터의 다차원 도수분포표를 변수 별로 비교 가능
 
