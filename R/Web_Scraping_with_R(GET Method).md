@@ -1,6 +1,6 @@
 # Web Scraping with R (GET Method)
 
-- Web¿¡¼­ ¿øÇÏ´Â µ¥ÀÌÅÍµéÀ» ±Ü¾î¸ğÀ¸´Â °Í(Web Crawling)
+- Webì—ì„œ ì›í•˜ëŠ” ë°ì´í„°ë“¤ì„ ê¸ì–´ëª¨ìœ¼ëŠ” ê²ƒ(Web Crawling)
 
 - Price Scraping : Scraping Prices of e-commerce products
 
@@ -11,16 +11,16 @@
 
 ## How to begin Web scraping
 
-- Hand : Á¤º¸°¡ ÇÊ¿äÇÑ À¥ÆäÀÌÁö¸¦ Á÷Á¢ ¸¶¿ì½º·Î ±Ü¾î¼­ ¿¢¼¿¿¡ ÀúÀå
+- Hand : ì •ë³´ê°€ í•„ìš”í•œ ì›¹í˜ì´ì§€ë¥¼ ì§ì ‘ ë§ˆìš°ìŠ¤ë¡œ ê¸ì–´ì„œ ì—‘ì…€ì— ì €ì¥
 
-- Software : Chrome È®Àå ÇÁ·Î±×·¥ Áß "Scraper" or "import.io"ÀÌ¿ë
+- Software : Chrome í™•ì¥ í”„ë¡œê·¸ë¨ ì¤‘ "Scraper" or "import.io"ì´ìš©
 
-- Programming : RÀÇ rvestÆĞÅ°Áö ¶Ç´Â PythonÀÇ Beautifulsoupµî ÆĞÅ°Áö¸¦ ÀÌ¿ë
+- Programming : Rì˜ rvestíŒ¨í‚¤ì§€ ë˜ëŠ” Pythonì˜ Beautifulsoupë“± íŒ¨í‚¤ì§€ë¥¼ ì´ìš©
 
 
 ## HTTP
 
-- Using GET : URL¿¡ argument°¡ °°ÀÌ ³Ñ¾î°¨(Embedding data in URL)
+- Using GET : URLì— argumentê°€ ê°™ì´ ë„˜ì–´ê°(Embedding data in URL)
 
 ```sh
 
@@ -30,7 +30,7 @@ http://www.ajou.com/send.php?Var1=value1&Var2=value2&Var3=value3
 
 ```
 
-- Using POST : argument´Â ¼û¾î¼­ ³Ñ¾î°¨
+- Using POST : argumentëŠ” ìˆ¨ì–´ì„œ ë„˜ì–´ê°
 
 ```sh
 
@@ -42,33 +42,33 @@ https://eungdapso.seoul.go.kr/Shr/Shr01/Shr01_lis.jsp
 
 ## R packages for Web scraping
 
-- rvest : get¹æ½ÄÀÇ httpÁÖ¼Ò¸¦ »ç¿ëÇÏ´Â °æ¿ì
+- rvest : getë°©ì‹ì˜ httpì£¼ì†Œë¥¼ ì‚¬ìš©í•˜ëŠ” ê²½ìš°
 
-- httr : post¹æ½ÄÀ¸·Î µ¥ÀÌÅÍ¸¦ ¿äÃ¶ÇØ¼­ °¡Á®¿À´Â °æ¿ì Ãß°¡·Î »ç¿ë
+- httr : postë°©ì‹ìœ¼ë¡œ ë°ì´í„°ë¥¼ ìš”ì² í•´ì„œ ê°€ì ¸ì˜¤ëŠ” ê²½ìš° ì¶”ê°€ë¡œ ì‚¬ìš©
 
-- Rselenium : À¥ÆäÀÌÁö°¡ ÀÚ¹Ù½ºÅ©¸®ºê³ª ajax µîÀ» ÀÌ¿ëÇØ µ¿ÀûÀ¸·Î ±¸¼ºµÈ °æ¿ì
-
-
-### rvest(GET¹æ½Ä)
-
-- ¿¹Á¦ : http://movie.daum.net/main/new
+- Rselenium : ì›¹í˜ì´ì§€ê°€ ìë°”ìŠ¤í¬ë¦¬ë¸Œë‚˜ ajax ë“±ì„ ì´ìš©í•´ ë™ì ìœ¼ë¡œ êµ¬ì„±ëœ ê²½ìš°
 
 
-#### Step1 : ¿µÈ­ '´õ Å·'¸®ºä Ã¹ ÆäÀÌÁö¿¡¼­ ¿µÈ­ ¸®ºä °¡Á®¿À±â(»ç¿ëÀÚ¸í, ¸®ºäÁ¡¼ö, ¸®ºä³»¿ë)
+### rvest(GETë°©ì‹)
 
-- ¿øÇÏ´Â pageÀÇ ÁÖ¼Ò ÆĞÅÏ ÆÄ¾Ç
+- ì˜ˆì œ : http://movie.daum.net/main/new
 
-- ´ë»ó page¿¡¼­ ¿øÇÏ´Â ºÎºĞÀÇ tag±¸Á¶ ÆÄ¾Ç(¿øÇÏ´Â À¥ ÆäÀÌÁö¿¡¼­ F12)-Css Selector¿¡ ´ëÇÑ ÀÌÇØ
 
-E : E ¿ä¼Ò¸¦ ¼±ÅÃ
+#### Step1 : ì˜í™” 'ë” í‚¹'ë¦¬ë·° ì²« í˜ì´ì§€ì—ì„œ ì˜í™” ë¦¬ë·° ê°€ì ¸ì˜¤ê¸°(ì‚¬ìš©ìëª…, ë¦¬ë·°ì ìˆ˜, ë¦¬ë·°ë‚´ìš©)
 
-E.Class : E ¿ä¼ÒÀÇ Class·Î ÁöÁ¤µÈ ¿ä¼Ò ¼±ÅÃ
+- ì›í•˜ëŠ” pageì˜ ì£¼ì†Œ íŒ¨í„´ íŒŒì•…
 
-E#id : E ¿ä¼ÒÀÇ id·Î ÁöÁ¤µÈ ¿ä¼Ò ¼±ÅÃ
+- ëŒ€ìƒ pageì—ì„œ ì›í•˜ëŠ” ë¶€ë¶„ì˜ tagêµ¬ì¡° íŒŒì•…(ì›í•˜ëŠ” ì›¹ í˜ì´ì§€ì—ì„œ F12)-Css Selectorì— ëŒ€í•œ ì´í•´
 
-E:first-child : E ¿ä¼ÒÀÇ Ã¹ ¹øÂ° ÀÚ½Ä ¿ä¼Ò
+E : E ìš”ì†Œë¥¼ ì„ íƒ
 
-E:nth-child(n) : E ¿ä¼ÒÀÇ n¹øÂ° ÀÚ½Ä ¿ä¼Ò
+E.Class : E ìš”ì†Œì˜ Classë¡œ ì§€ì •ëœ ìš”ì†Œ ì„ íƒ
+
+E#id : E ìš”ì†Œì˜ idë¡œ ì§€ì •ëœ ìš”ì†Œ ì„ íƒ
+
+E:first-child : E ìš”ì†Œì˜ ì²« ë²ˆì§¸ ìì‹ ìš”ì†Œ
+
+E:nth-child(n) : E ìš”ì†Œì˜ në²ˆì§¸ ìì‹ ìš”ì†Œ
 
 ```sh
 
@@ -76,20 +76,20 @@ install.packages("rvest")
 
 library(rvest)
 
-# À¥ÆäÀÌÁö ÁÖ¼Ò°¡ °áÁ¤µÇ¸é URLÀ» º¯¼ö¿¡ ÀúÀå
+# ì›¹í˜ì´ì§€ ì£¼ì†Œê°€ ê²°ì •ë˜ë©´ URLì„ ë³€ìˆ˜ì— ì €ì¥
 
 url <- "http://movie.daum.net/moviedb/grade?movieId=98333&type=netizen"
 
-htxt <- read_html(url) # ÀúÀåµÈ URLÀ» ÀÌ¿ëÇØ ³»¿ëÀ» ÀĞ¾î¿È
+htxt <- read_html(url) # ì €ì¥ëœ URLì„ ì´ìš©í•´ ë‚´ìš©ì„ ì½ì–´ì˜´
 
-user <- html_nodes(htxt,'em.link_profile') # »ç¿ëÀÚ¸í Selector : em.link_profile
+user <- html_nodes(htxt,'em.link_profile') # ì‚¬ìš©ìëª… Selector : em.link_profile
 
-rate <- html_nodes(htxt,'em.emph_grade') # ¸®ºä Á¡¼ö Selector : em.emph_grade
+rate <- html_nodes(htxt,'em.emph_grade') # ë¦¬ë·° ì ìˆ˜ Selector : em.emph_grade
 
-review <- html_nodes(htxt,'p.desc_review') # ¸®ºä ³»¿ë Selector : p.desc_review
+review <- html_nodes(htxt,'p.desc_review') # ë¦¬ë·° ë‚´ìš© Selector : p.desc_review
 
 
-# html_text : Text¸¸ ÃßÃâ
+# html_text : Textë§Œ ì¶”ì¶œ
 
 user <- html_text(user)
 
@@ -98,7 +98,7 @@ rate <- html_text(rate)
 review <- html_text(review)
 
 
-# Á¤Á¦ÇÏ±â(str_trim())
+# ì •ì œí•˜ê¸°(str_trim())
 
 library(stringr)
 
@@ -107,9 +107,9 @@ review <- str_trim(review)
 review <- gsub("\r", "", review)
 
 
-# ÀúÀåÇÏ±â
+# ì €ì¥í•˜ê¸°
 
-# µ¥ÀÌÅÍ¸¦ ÄÃ·³ º°·Î ¹­¾î dataframe »ı¼º
+# ë°ì´í„°ë¥¼ ì»¬ëŸ¼ ë³„ë¡œ ë¬¶ì–´ dataframe ìƒì„±
 
 page <- data.frame(user, rate, review)
 
@@ -117,25 +117,25 @@ write.csv(page,"theking1page.csv", row.names=F)
 
 ```
 
-#### Step2 : ¿©·¯ ÆäÀÌÁö¸¦ °¡Á®¿Í Step1 ¹İº¹
+#### Step2 : ì—¬ëŸ¬ í˜ì´ì§€ë¥¼ ê°€ì ¸ì™€ Step1 ë°˜ë³µ
 
 ```sh
 
-# ÆäÀÌÁö¿¡ ´ëÇÑ ÁÖ¼Ò ±ÔÄ¢Àº?
+# í˜ì´ì§€ì— ëŒ€í•œ ì£¼ì†Œ ê·œì¹™ì€?
 
 # http://movie.daum.net/moviedb/grade?movieId=98333&type=netizen&page=
 
 url_base <- "http://movie.daum.net/moviedb/grade?movieId=98333&type=netizen&page="
 
-total_review <- NULL # °¢ ÆäÀÌÁöÀÇ ¸®ºä¸¦ ÀüºÎ ÇÕÄ¥ º¯¼ö¸¦ ÃÊ±âÈ­
+total_review <- NULL # ê° í˜ì´ì§€ì˜ ë¦¬ë·°ë¥¼ ì „ë¶€ í•©ì¹  ë³€ìˆ˜ë¥¼ ì´ˆê¸°í™”
 
-for(i in 1:248){ # ÃÖ´ë ÆäÀÌÁö ¼ö¸¸Å­ ¹İº¹
+for(i in 1:248){ # ìµœëŒ€ í˜ì´ì§€ ìˆ˜ë§Œí¼ ë°˜ë³µ
   url <- paste(url_base, i, sep="")
  
-	 # 1´Ü°è ¹İº¹
+	 # 1ë‹¨ê³„ ë°˜ë³µ
 	 # ...
 
-  total_review = rbind(total_review, page) # ÀüÃ¼¸®ºä¸¦ ÅëÇÕ
+  total_review = rbind(total_review, page) # ì „ì²´ë¦¬ë·°ë¥¼ í†µí•©
   
 }
 
@@ -143,7 +143,4 @@ write.csv(total_review, "theking_review.csv", row.names = F)
 
 ```
 
-#### Step3 : ¿øÇÏ´Â µ¥ÀÌÅÍ¸¦ °¡Á®¿À±â(½Ç½Ã°£ ¿¹¸Å¼øÀ§ »óÀ§ 20°Ô ¿µÈ­ÀÇ ÀüÃ¼¸®ºä)
-
-
-### POST ¹æ½Ä
+#### Step3 : ì›í•˜ëŠ” ë°ì´í„°ë¥¼ ê°€ì ¸ì˜¤ê¸°(ì‹¤ì‹œê°„ ì˜ˆë§¤ìˆœìœ„ ìƒìœ„ 20ê²Œ ì˜í™”ì˜ ì „ì²´ë¦¬ë·°)
