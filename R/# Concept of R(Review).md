@@ -678,3 +678,36 @@ attr(,"tzone")
 - 단어의 개념 표현을 넘어 추론까지도 손쉽게 구현 가능
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA2MTRfMjE1/MDAxNDk3Mzc4NDI3NTMz.sC2wRO3I_HSHWXKgWZDw7o00vdhrpv-O0ew368QyAEEg.9j06Lm3KqUFmOvFFDSetc2IOIeQKXuAavR7Fw_2aJKsg.PNG.jp302119/7.png)
+
+
+## 그래프
+
+### plot()
+
+- type = "o" : 점과 선을 중첩해서 그린 그래프
+
+- type = "s" : 왼쪽 값을 기초로 계단 모양으로 연결한 그래프
+
+- type = "l" : 꺾은 선 그래프(점 중첩 x)
+
+- axes = F : x축을 그리지 않는다
+
+- ann = F : y축을 그리지 않는다
+
+- axis(1,at=1:5,lab=c("Mon","TUE","WED","WHU","FRI")) : x축을 1부터 5까지 그리고 범주 값을 월~금으로 설정
+
+- axis(2, ylim = c(0,200) : y축을 200을 최대값으로 설정해서 그린다
+
+- title(main = "Fruit", col.main = "red", fon.main = 4) : 제목을 Fruit으로하고 색상은 빨간색, 글씨체는 4로 설정
+
+- title(xlab="DAY",col.lab="blue") : x축 이름을 DAY로 설정하고 색상은 파란색
+
+- title(ylab="PRICE",col.lab="green") :y축 이름을 PRICE로 설정하고 색상은 초록색
+
+- mfrow = c(1,3) : row는 하나, col은 세 개로 화면 분할
+
+- par(new=T) : 이전의 그래프와 중첩(default = F)
+
+- lines : 중첩했을 때 y축의 값이 겹치는걸 방지(or y축의 값을 넉넉하게 주면 됨)
+
+- legend(4.5,10,c("V1","V2","V3"),cex=0.9,col=c("red","blue","yellow"),lty=1) : 범주의 위치(4.5,10), 글씨 굵기(0.9), 실선으로 표시 

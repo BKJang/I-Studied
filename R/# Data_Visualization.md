@@ -351,7 +351,7 @@ text(x,y,“note”) : x,y의 위치에 “note”라는 글을 씀
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMTk1/MDAxNDk1NTkxNzM4OTA2.9kXxgJL3xrTufcZkVm0uSqCZ5g2P1tG60ujs-m6S4AAg.foXNtTQ_zN40QBXDBxZe3_KqWiqS9ubAgeHBAjQ7l08g.PNG.jp302119/b.png)
 
 ```sh
-> barplot(x,horiz=T)
+> barplot(x,horiz=T) # 가로로 출력
 
 ```
 
@@ -366,14 +366,14 @@ text(x,y,“note”) : x,y의 위치에 “note”라는 글을 씀
 # [1,]    5    3
 # [2,]    4    2
 
-> barplot(x,beside=T,names=c(5,3),col=c("green","blue"))
+> barplot(x,beside=T,names=c(5,3),col=c("green","blue")) # 그룹으로 묶어서 출력
 
 ```
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMTU3/MDAxNDk1NTkxNzM5MDY4.j0cWhqjo-TBJc1_55gmLBEkvYYbtCSMUC75BVyD3UL4g.VMLNAN9NCxh5U_bZBAJ5p6rSNquSSKYVB3Xrzor1H_Eg.PNG.jp302119/c.png)
 
 ```sh
-> barplot(x,names=c(5,3),col=c("green","blue"),ylim=c(0,12))
+> barplot(x,names=c(5,3),col=c("green","blue"),ylim=c(0,12)) # beside=T가 없기 때문에 하나의 barplot으로 표현
 
 ```
 
@@ -382,7 +382,7 @@ text(x,y,“note”) : x,y의 위치에 “note”라는 글을 씀
 ```sh
 > x <- matrix(c(5,4,3,2),2,2)
 
-> barplot(x,names=c(5,3),beside=T,col=c("green","yellow"),horiz=T)
+> barplot(x,names=c(5,3),beside=T,col=c("green","yellow"),horiz=T) # 가로로 출력
 
 ```
 
@@ -391,7 +391,7 @@ text(x,y,“note”) : x,y의 위치에 “note”라는 글을 씀
 ```sh
 > x <- matrix(c(5,4,3,2),2,2)
 
-> barplot(x,horiz=T, names=c(5,3),col=c("green","yellow"), xlim=c(0,12))
+> barplot(x,horiz=T, names=c(5,3),col=c("green","yellow"), xlim=c(0,12)) # beside=T가 없기 때문에 하나의 그래프로
 
 ```
 
@@ -408,26 +408,26 @@ text(x,y,“note”) : x,y의 위치에 “note”라는 글을 씀
 
 > qty
 
-#   BANANA CHERRY ORANGE
-# 1    100    120    140
+#   BANANA CHERRY ORANGE # x축
+# 1    100    120    140 # 값: y축 / 1,2,3,4,5 : 범주 
 # 2    120    130    170
 # 3    140    150    120
 # 4    160    140    110
 # 5    180    170    160
 
-> barplot(as.matrix(qty),main="Fruit's Sales QTY", beside=T,col=rainbow(nrow(qty)),ylim=c(0,400))
+> barplot(as.matrix(qty),main="Fruit's Sales QTY", beside=T,col=rainbow(nrow(qty)),ylim=c(0,400)) # barchart는 무조건 matrix형태로 출력해야 하기 때문에 as.martrix 사용
 
 #범례
-> legend(14,400,c("MON","TUE","WED","THU","FRI"),cex=0.8, fill=rainbow(nrow(qty)))
+> legend(14,400,c("MON","TUE","WED","THU","FRI"),cex=0.8, fill=rainbow(nrow(qty))) # rainbow(nrow(qty)) : 무지개색으로 하되 개수는 qty변수 안에 있는 개수 만큼
 
 ```
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MjRfMTQ4/MDAxNDk1NTkxNzQwMjI1.SsBychqEEtnmL0ghiS6r2W1v9awmgGwLYPRYNNNO5Gkg.4epahDmuaTSQOEMv5IIWgzqts9PKNHYzWx1ZkssF008g.PNG.jp302119/h.png)
 
 ```sh
-> barplot(t(qty),main="Fruits Sales QTY",ylim=c(0,900),
-	col=rainbow(length(qty)),space=0.1,cex.axis=0.8,las=1,
-        names.arg=c("MON","TUE","WED","THU","FRI"),cex=0.8)
+> barplot(t(qty),main="Fruits Sales QTY",ylim=c(0,900), # t() : 행과 열을 바꿔주는 함수 - 범주가 x축으로, x축이 범주로
+	col=rainbow(length(qty)),space=0.1,cex.axis=0.8,las=1, # space : 그래프 간의 여백, cex.axis : y축의 글씨 크기, las : y축의 값이 가로로 됨
+        names.arg=c("MON","TUE","WED","THU","FRI"),cex=0.8) 
 
 #범례
 > legend(0.2,800,names(qty),cex=0.7,fill=rainbow(length(qty)) )
@@ -446,7 +446,7 @@ text(x,y,“note”) : x,y의 위치에 “note”라는 글을 씀
 
 boxplot(v1)
 
-```
+``` 
 
 ![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMjY5/MDAxNDk2MTg5NjIyNDE0.cPuWjZHvlTgUoSNAUEJUnQK5hZbCb5qkOcaZn7Dh2Kgg.bQTv3xEoHn0gttPCgv61BkTc8RKV8YNowDCfjw3bDu0g.PNG.jp302119/2.png)
 
