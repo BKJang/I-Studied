@@ -1,4 +1,4 @@
-# Data Visualization
+﻿# Data Visualization
 
 ## Purpose & Function
 
@@ -715,3 +715,15 @@ cex=0.5,fill=rainbow(length(p1)))
 (versicolor)면 green, 3(virginica)이면 blue
 
 ```
+
+## 탐색적 데이터 분석(EDA)
+
+### 왜 필요한가?
+
+- 데이터를 다양한 각도에서 관찰하고 이해하기 위한 과정
+
+- 데이터 분석을 위한 전처리 과정에서 놓쳤던 문제들을 발견할 수 있음
+
+- 미처 몰랐었던 다양한 패턴을 발견을 가설을 세움
+
+- 특정 결론을 도출하기 위해서가 아니라 데이터로부터 최대한 많은 이야기 거리를 뽑아내는 것이 주목적
