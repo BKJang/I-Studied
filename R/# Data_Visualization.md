@@ -516,7 +516,7 @@ boxplot(v1)
 
 - subset 사용
 
-![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMTg5/MDAxNDk2MTg5NjIzMjk2.EvNQt5SVnJgIUTZMMTr3UHfTX5hOHCGGpsC3H4tp3Ig.0R9bKOmE7AeijvHg_2E3XLcGXJ50CWRt1peptmTGGc4g.PNG.jp302119/6.png)
+![Markdown Here logo](http://blogfiles.naver.net/MjAxNzA1MzFfMTg5/MDAxNDk2MTg5NjIzMjk2.EvNQt5SVnJgIUTZ-MMTr3UHfTX5hOHCGGpsC3H4tp3Ig.0R9bKOmE7AeijvHg_2E3XLcGXJ50CWRt1peptmTGGc4g.PNG.jp302119/6.png)
 
 ```sh
 
